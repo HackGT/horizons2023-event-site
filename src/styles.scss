@@ -68,7 +68,7 @@ a,img,picture,svg,video {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-size: $h1;
   font-weight: 700;
 }
@@ -192,14 +192,13 @@ p {
 
     h1 {
         color: #5B5CA6;
-        margin-bottom: $m32;
+        margin-bottom: 0;
         z-index: 1;
         width: $w5;
-        font-family: 'El Messiri', sans-serif;
     }
 
     p {
-        margin-bottom: $m32;
+        margin-bottom: $m16;
         z-index: 1;
         width: $w5;
     }
@@ -241,7 +240,6 @@ p {
     h1 {
         color: #5B5CA6;
         margin-bottom: $m32;
-        font-family: 'El Messiri', sans-serif;
     }
 
     p {
@@ -267,7 +265,7 @@ p {
 
     h1 {
         margin-bottom: $m24;
-        color: #EAFBF9
+        color: #EAFBF9;
     }
 
     p {
@@ -289,6 +287,7 @@ p {
             width: $w7;
             font-style: italic;
             text-align: end;
+            font-weight: 700;
         }
     }
 
