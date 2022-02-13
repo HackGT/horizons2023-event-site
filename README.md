@@ -6,7 +6,7 @@ Clone the repo and navigate into the directory.
 
 ```
 yarn install
-yarn parcel src/index.html
+yarn run dev
 ```
 
 The site should be up and running.
