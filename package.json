@@ -1,9 +1,10 @@
 {
   "name": "horizons2022-event-site",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "yarn parcel src/index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
-
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.3.1"
