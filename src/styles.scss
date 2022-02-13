@@ -366,20 +366,23 @@ footer {
 
 @media (max-width: 1040px) {
   #section-schedule {
-    flex-direction: column;
-    align-items: flex-start;
+    // flex-direction: column;
+    // align-items: flex-start;
 
     .schedule-container {
-      width: $w4Mobile;
+      width: $w7;
       margin: 0;
+      margin-right: $w1 + $m24 * 2;
+      align-self: center;
+      text-align: start;
     }
 
     p {
-      width: $w8;
+      width: $w7;
     }
 
     h1 {
-      width: $w8;
+      width: $w7;
     }
 
     .schedule-img {
