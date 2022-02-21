@@ -96,6 +96,12 @@ function MainPage() {
                 mini-events and great vibes, students from any background can come and
                 enjoy!
                 </p>
+                
+                <p><strong>Can I attend the event virtually?</strong></p>
+                <p>
+                Horizons will be a completely in-person event this year! All of our workshops,
+                judging, mini-events, etc. will happen in-person.
+                </p>
 
                 <p><strong>How much will this cost?</strong></p>
                 <p>
