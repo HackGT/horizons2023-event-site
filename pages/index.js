@@ -54,7 +54,7 @@ function MainPage() {
                 />
                 <div className="registration-container">
                 <h1>Registration</h1>
-                <p>Registration is FREE and is open NOW. It closes February 28th.</p>
+                <p>Registration is FREE and is open NOW. It closes March 4th.</p>
                 <a href="https://forms.gle/RCz4cEZgmgqmHvocA">Register Now!</a>
                 </div>
             </section>
