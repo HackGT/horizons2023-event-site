@@ -111,9 +111,8 @@ function MainPage() {
 
                 <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open
-                <a href="https://forms.gle/RCz4cEZgmgqmHvocA">here</a> and will close for
-                participants on Monday, February 28 2020 at 11:59pm
+                Registration is open <a href="https://forms.gle/RCz4cEZgmgqmHvocA">here</a> and will close for
+                participants on Friday, March 4th, 2022 at 11:59pm
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
