@@ -3,7 +3,7 @@ function MainPage() {
         <body>
             <section id="section-hero">
                 <div className="hero-container">
-                <h1 className="hero-title">Horizons</h1>
+                <h1 className="hero-title">HORIZONS</h1>
                 <p>Georgia Tech</p>
                 <p>Instructional Center, Mason Building</p>
                 <p>March 12th-13th</p>
