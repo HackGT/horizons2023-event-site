@@ -1,7 +1,7 @@
 //
 //// Imports
 //
-@import  "variables.scss";
+@import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Open+Sans:wght@400;700&display=swap");
 
 //
@@ -23,7 +23,7 @@
   }
 
   .hero-title {
-    font-family: "El Messiri", sans-serif;
+    font-family: "El Messiri";
     font-size: 72px;
   }
 
@@ -220,7 +220,6 @@
     height: auto;
   }
 }
-
 
 @media (max-width: 1040px) {
   #section-schedule {
