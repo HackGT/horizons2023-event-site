@@ -60,12 +60,9 @@ function MainPage() {
             </section>
             <section id="section-schedule">
                 <div className="schedule-container">
-                <h1>Schedule</h1>
-                <p>Schedule Coming Soon!</p>
-                <p>
-                    *Note: The schedule is subject to change, and will be updated as more
-                    details arrive :)*
-                </p>
+                <h1>
+                    The schedule can be found <u><a href="https://live.hexlabs.org/">here!</a></u>
+                </h1>
                 <img
                     src="/img/quote-bg.png"
                     alt="a bear holding paint"
