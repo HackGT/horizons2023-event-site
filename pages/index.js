@@ -93,6 +93,12 @@ function MainPage() {
                 mini-events and great vibes, students from any background can come and
                 enjoy!
                 </p>
+                <p><strong>When and where can I go to check in for Horizons?</strong></p>
+                <p>
+                You can find the check-in desks at the Instructional Center, which is located at <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6"
+                    >759 Ferst Dr. NW, Atlanta, GA 30318.</a> Check-in begins at <strong>10 AM on Saturday, March 12th, 2022</strong>. We hope to see you there!
+                </p>
+
                 
                 <p><strong>Can I attend the event virtually?</strong></p>
                 <p>
