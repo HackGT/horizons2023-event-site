@@ -1,6 +1,6 @@
-# horizons2022-event-site
+# horizons2023-event-site
 
-Event site for Horizons 2022
+Event site for Horizons 2023
 
 ## Installation
 
