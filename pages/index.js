@@ -78,7 +78,7 @@ function MainPage() {
                 />
             </section>
             <section id="section-faq">
-                <h1>frequently asked questions</h1>
+                <h2>frequently asked questions</h2>
 
                 <p>
                 <strong>So I've heard of a hackathon, but what's a make-a-thon?</strong>
@@ -161,7 +161,7 @@ function MainPage() {
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h1>express yourself!</h1>
+                <h2>express yourself!</h2>
                 <div className="express-container-paragraph">
                     <div>
                     <p>
