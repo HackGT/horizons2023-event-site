@@ -8,7 +8,7 @@ function MainPage() {
                     <h1 className="hero-title">Horizons</h1>
                     <div className="hero-subtitle">
                         <h3>georgia tech</h3>
-                        <h3>location pending</h3>
+                        <h3>ford environmental science & technology building</h3>
                         <h3>march 11th-12th</h3>
                     </div>
                     <a className="hero-button" href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
