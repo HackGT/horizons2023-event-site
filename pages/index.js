@@ -76,7 +76,7 @@ function MainPage() {
                 />
             </section>
             <section id="section-faq">
-                <h1>Frequently Asked Questions</h1>
+                <h1>frequently asked questions</h1>
 
                 <p>
                 <strong>So I've heard of a hackathon, but what's a make-a-thon?</strong>
@@ -161,23 +161,27 @@ function MainPage() {
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h1>Express Yourself</h1>
-                <p>
+                <h1>express yourself</h1>
+                <div classname="express-container-paragraph">
+                    <div>
+                    <p>
                     Horizons is a celebration of the incredible intersection between art and
                     technology. It is a platform for people to express themselves through
                     art while using technology or engineering to augment its impact.
-                </p>
-                <p>
+                    </p>
+                    <p>
                     Moreso, art and technology come together as avenues for people to share
                     their ideas. To share their findings. To share their feelings. To
                     express themselves.
-                </p>
-                <p>At Horizons, we challenge you to do just that!</p>
-                <img
-                    src="/img/macaron.png"
-                    alt="macarons"
-                    className="quote-img"
-                />
+                    </p>
+                    <p>At Horizons, we challenge you to do just that!</p>
+                    </div>
+                    <img
+                        src="/img/macaron.png"
+                        alt="macarons"
+                        className="quote-img"
+                    />
+                </div>
                 </div>
                 <div className="express-container-quote">
                 <img
