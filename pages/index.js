@@ -102,8 +102,8 @@ function MainPage() {
 
                 <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open <a href="https://forms.gle/RCz4cEZgmgqmHvocA">here</a> and will close for
-                participants on Friday, March 4th, 2022 at 11:59pm
+                Registration will open on Tuesday, February 14th and will close for participants 
+                on Saturday, March 4th.
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
@@ -116,9 +116,7 @@ function MainPage() {
 
                 <p><strong>Where is Horizons?</strong></p>
                 <p>
-                We'll be waiting for you at the Instructional Center, aka,
-                <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6"
-                    >759 Ferst Dr. NW, Atlanta, GA 30318.</a>
+                We'll be waiting for you at the...TBD
                 </p>
 
                 <p><strong>Will there be any makerspaces open during the event?</strong></p>
@@ -130,8 +128,8 @@ function MainPage() {
 
                 <p><strong>How long is the event?</strong></p>
                 <p>
-                Two days! Day 1 (Saturday March 12) will start at (TBD) and finish at
-                (TBD); Day 2 (Sunday, March 13) will start at (TBD) and finish at (TBD).
+                Two days! Day 1 (Saturday March 11) will start at 8:00 AM and continue onto 
+                day 2 (Sunday, March 12) and finish at 4:00 PM.
                 </p>
 
                 <p><strong>What resources will be there?</strong></p>
