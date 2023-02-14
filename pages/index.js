@@ -110,7 +110,7 @@ function MainPage() {
                 <p><strong>Where can I register?</strong></p>
                 <p>
                 Registration is open <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">here</a> and will close for
-                participants on Monday, March 4th, 2023 at 11:59pm
+                participants on March 4th, 2023 at 11:59pm
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
