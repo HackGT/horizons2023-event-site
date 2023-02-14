@@ -8,7 +8,7 @@ Clone the repo and navigate into the directory.
 
 ```
 yarn install
-yarn start
+yarn dev
 ```
 
 The site should be up and running.
