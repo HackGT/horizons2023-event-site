@@ -11,7 +11,7 @@ function MainPage() {
                         <h3>location pending</h3>
                         <h3>march 11th-12th</h3>
                     </div>
-                    <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
+                    <a className="hero-button" href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
             </section>
             <section id="section-about">
@@ -57,7 +57,7 @@ function MainPage() {
                 <div className="registration-container">
                 <h2>come to the café!</h2>
                 <p>Registration is FREE and is open NOW. It closes March 4th.</p>
-                <a href="https://registration.hexlabs.org/">register now!</a>
+                <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
             </section>
             <section id="section-schedule">
