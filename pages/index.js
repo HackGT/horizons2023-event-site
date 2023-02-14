@@ -115,7 +115,7 @@ function MainPage() {
 
                 <p><strong>What should I bring?</strong></p>
                 <p>
-                We request that you bring yourself :relaxed:, your laptop, and your
+                We request that you bring yourself, your laptop, and your
                 student ID! If you are not a Georgia Tech student you will also need to
                 bring a government ID and student ID. Feel free to bring anything else
                 (art supplies, tools, etc...) that you think would be helpful.
