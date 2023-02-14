@@ -1,22 +1,22 @@
+import Link from "next/link";
+
 function MainPage() {
     return (
         <body>
             <section id="section-hero">
                 <div className="hero-container">
-                <h1 className="hero-title">HORIZONS</h1>
-                <p>Georgia Tech</p>
-                <p>Instructional Center, Mason Building</p>
-                <p>March 12th-13th</p>
+                    <h1 className="hero-title">Horizons</h1>
+                    <div className="hero-subtitle">
+                        <h3>georgia tech</h3>
+                        <h3>location pending</h3>
+                        <h3>march 11th-12th</h3>
+                    </div>
+                    <a className="hero-button" href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
-                <img
-                    src="/img/juice-mushroom.png"
-                    alt="illustration of a mushroom"
-                    className="hero-img"
-                />
             </section>
             <section id="section-about">
                 <div className="about-container">
-                <h1>About</h1>
+                <h2>About</h2>
                 <p>There's a new event on the Horizon 🌅 👀!</p>
                 <p>
                     HexLabs is thrilled to welcome you to 🎨
@@ -29,8 +29,10 @@ function MainPage() {
                     for you!
                 </p>
                 <p>
-                    🌿 From March 12-13th, explore your unique skills and ideas at Georgia
-                    Tech 🌱 ✨.
+                    <strong>
+                    🌿 From March 11-12th, explore your unique skills and ideas at Georgia
+                    Tech 🌱
+                    </strong>
                 </p>
                 <p>
                     During this weekend, participants will brainstorm, design, and create
@@ -41,27 +43,27 @@ function MainPage() {
                 </p>
                 </div>
                 <img
-                src="/img/basket-mushrooms.png"
-                alt="falling mushrooms and a basket"
+                src="/img/about.png"
+                alt="strawberry shortcake"
                 className="about-img"
                 />
             </section>
             <section id="section-registration">
                 <img
-                src="/img/flowers-0.png"
+                src="/img/tracks-digital.png"
                 alt="a blue and pink flower"
                 className="registration-img"
                 />
                 <div className="registration-container">
-                <h1>Registration</h1>
+                <h2>come to the café!</h2>
                 <p>Registration is FREE and is open NOW. It closes March 4th.</p>
-                <a href="https://forms.gle/RCz4cEZgmgqmHvocA">Register Now!</a>
+                <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
             </section>
             <section id="section-schedule">
                 <div className="schedule-container">
                 <h1>
-                    The schedule can be found <u><a href="https://live.hexlabs.org/">here!</a></u>
+                ☆ﾟ. * ･ ｡ﾟ <br/>The schedule is being crafted up ﾟ｡･ * . ﾟ☆ 
                 </h1>
                 <img
                     src="/img/quote-bg.png"
@@ -76,7 +78,7 @@ function MainPage() {
                 />
             </section>
             <section id="section-faq">
-                <h1>frequently asked questions</h1>
+                <h2>frequently asked questions</h2>
 
                 <p>
                 <strong>So I've heard of a hackathon, but what's a make-a-thon?</strong>
@@ -154,12 +156,12 @@ function MainPage() {
 
                 <p><strong>Any other questions?</strong></p>
                 <p>
-                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>.
+                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org</a>  💜.
                 </p>
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h1>express yourself!</h1>
+                <h2>express yourself!</h2>
                 <div className="express-container-paragraph">
                     <div>
                     <p>
