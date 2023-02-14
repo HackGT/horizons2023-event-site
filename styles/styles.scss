@@ -309,10 +309,22 @@
       h1 {
         width: $w4Mobile;
         text-align: center;
-        font-size: $h1;
+        font-size: $h1Mobile;
       }
+
+      h2 {
+        text-align: center;
+        font-size: $h2Mobile;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: $h3Mobile;
+      }
+
       p {
         width: $w4Mobile;
+        font-size: $pMobile;
       }
     }
 
@@ -323,7 +335,6 @@
 
     .hero-title {
       width: $w4Mobile;
-      font-size: 72px;
     }
 
     .hero-button {
@@ -340,12 +351,20 @@
       width: $w4Mobile;
     }
 
-    p {
-      width: 100%;
+    h2 {
+      text-align: center;
+      font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
-    h1 {
+    h3 {
+      text-align: center;
+      font-size: $h3Mobile;
+    }
+
+    p {
+      width: $w4Mobile;
+      font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
 
@@ -366,14 +385,23 @@
       margin: 0;
     }
 
-    p {
-      width: 100%;
+    h2 {
+      text-align: center;
+      font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
-    h1 {
+    h3 {
+      text-align: center;
+      font-size: $h3Mobile;
+    }
+
+    p {
+      width: $w4Mobile;
+      font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
+    
 
     a {
       display: inline-block;
@@ -400,13 +428,20 @@
       margin: 0;
     }
 
-    p {
-      width: 100%;
+    h1 {
+      text-align: center;
+      font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
-    h1 {
-      width: 100%;
+    h3 {
+      text-align: center;
+      font-size: $h3Mobile;
+    }
+
+    p {
+      width: $w4Mobile;
+      font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
 
@@ -427,12 +462,20 @@
     padding: $m96Mobile $m16Mobile;
     padding-top: 0;
 
-    h1 {
+    h2 {
+      text-align: center;
+      font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
+    h3 {
+      text-align: center;
+      font-size: $h3Mobile;
+    }
+
     p {
-      width: 100%;
+      width: $w4Mobile;
+      font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
   }
@@ -444,8 +487,27 @@
       width: $w4Mobile;
     }
 
-    h1 {
+    h2 {
+      text-align: center;
+      font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: $h3Mobile;
+    }
+
+    p {
+      width: $w4Mobile;
+      font-size: $pMobile;
+      margin-bottom: $m16Mobile;
+    }
+
+    img {
+      display: flex;
+      width: $w2Mobile;
+      height: auto;
     }
 
     .express-container-quote {
@@ -462,11 +524,6 @@
         width: $w2Mobile;
         margin-bottom: $m16Mobile;
       }
-    }
-
-    p {
-      width: 100%;
-      margin-bottom: $m16Mobile;
     }
   }
 }

@@ -8,7 +8,7 @@ function MainPage() {
                     <h1 className="hero-title">Horizons</h1>
                     <div className="hero-subtitle">
                         <h3>georgia tech</h3>
-                        <h3>location pending</h3>
+                        <h3>ford environmental science & technology building</h3>
                         <h3>march 11th-12th</h3>
                     </div>
                     <a className="hero-button" href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
@@ -105,7 +105,7 @@ function MainPage() {
                 <p><strong>Where can I register?</strong></p>
                 <p>
                 Registration will open on Tuesday, February 14th and will close for participants 
-                on Saturday, March 4th.
+                on Saturday, March 4th. You can register <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">here!</a>
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
@@ -118,7 +118,7 @@ function MainPage() {
 
                 <p><strong>Where is Horizons?</strong></p>
                 <p>
-                We'll be waiting for you at the...TBD
+                We'll be waiting for you at the <a href="https://goo.gl/maps/c5W4vwzejsrGb94X7">Ford Environmental Science & Technology Building</a>!
                 </p>
 
                 <p><strong>Will there be any makerspaces open during the event?</strong></p>
