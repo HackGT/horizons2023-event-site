@@ -78,7 +78,7 @@ function MainPage() {
                 />
             </section>
             <section id="section-faq">
-                <h2>Frequently Asked Questions</h2>
+                <h1>frequently asked questions</h1>
 
                 <p>
                 <strong>So I've heard of a hackathon, but what's a make-a-thon?</strong>
@@ -95,18 +95,6 @@ function MainPage() {
                 mini-events and great vibes, students from any background can come and
                 enjoy!
                 </p>
-                {/* <p><strong>When and where can I go to check in for Horizons?</strong></p>
-                <p>
-                You can find the check-in desks at the Instructional Center, which is located at <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6"
-                    >759 Ferst Dr. NW, Atlanta, GA 30318.</a> Check-in begins at <strong>10 AM on Saturday, March 12th, 2022</strong>. We hope to see you there!
-                </p> */}
-
-                
-                <p><strong>Can I attend the event virtually?</strong></p>
-                <p>
-                Horizons will be a completely in-person event this year! All of our workshops,
-                judging, mini-events, etc. will happen in-person.
-                </p>
 
                 <p><strong>How much will this cost?</strong></p>
                 <p>
@@ -116,23 +104,22 @@ function MainPage() {
 
                 <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
-                participants on Saturday, March 4th, 2022 at 11:59pm
+                Registration will open on Tuesday, February 14th and will close for participants 
+                on Saturday, March 4th.
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
                 <p>
-                We request that you bring yourself :relaxed:, your laptop, and your
+                We request that you bring yourself 😊, your laptop, and your
                 student ID! If you are not a Georgia Tech student you will also need to
                 bring a government ID and student ID. Feel free to bring anything else
                 (art supplies, tools, etc...) that you think would be helpful.
                 </p>
 
-                {/* <p><strong>Where is Horizons?</strong></p>
+                <p><strong>Where is Horizons?</strong></p>
                 <p>
-                We'll be waiting for you at the Instructional Center, aka, <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6">
-                    759 Ferst Dr. NW, Atlanta, GA 30318.</a>
-                </p> */}
+                We'll be waiting for you at the...TBD
+                </p>
 
                 <p><strong>Will there be any makerspaces open during the event?</strong></p>
                 <p>
@@ -143,8 +130,8 @@ function MainPage() {
 
                 <p><strong>How long is the event?</strong></p>
                 <p>
-                Two days! On Day 1 (Saturday March 11), the event will start at 8:00 AM; 
-                On Day 2 (Sunday, March 12), the event will finish at 4:00 PM.
+                Two days! Day 1 (Saturday March 11) will start at 8:00 AM and continue onto 
+                day 2 (Sunday, March 12) and finish at 4:00 PM.
                 </p>
 
                 <p><strong>What resources will be there?</strong></p>
@@ -174,23 +161,32 @@ function MainPage() {
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h2>Express Yourself</h2>
-                <p>
+                <h1>express yourself!</h1>
+                <div className="express-container-paragraph">
+                    <div>
+                    <p>
                     Horizons is a celebration of the incredible intersection between art and
                     technology. It is a platform for people to express themselves through
                     art while using technology or engineering to augment its impact.
-                </p>
-                <p>
+                    </p>
+                    <p>
                     Moreso, art and technology come together as avenues for people to share
                     their ideas. To share their findings. To share their feelings. To
                     express themselves.
-                </p>
-                <p>At Horizons, we challenge you to do just that!</p>
+                    </p>
+                    <p>At Horizons, we challenge you to do just that!</p>
+                    </div>
+                    <img
+                        src="/img/macaron.png"
+                        alt="macarons"
+                        className="paragraph-img"
+                    />
+                </div>
                 </div>
                 <div className="express-container-quote">
                 <img
-                    src="/img/flowers-1.png"
-                    alt="flowers and butterflies"
+                    src="/img/croissant.png"
+                    alt="croissant"
                     className="quote-img"
                 />
                 <div>
