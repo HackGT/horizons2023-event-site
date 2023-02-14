@@ -11,7 +11,7 @@ function MainPage() {
             <h3>ford environmental science & technology building</h3>
             <h3>march 11th-12th</h3>
           </div>
-          {/* <a className="hero-button" href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a> */}
+          <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
         </div>
       </section>
       <section id="section-about">
@@ -50,46 +50,57 @@ function MainPage() {
       </section>
 
       <section id="section-registration">
-        <img
-          src="/img/coffee.png"
-          alt="coffee + plants"
-          className="registration-img"
-        />
-        <div className="registration-container">
-          <h2>Tracks!</h2>
-          <h2>Physical</h2>
-          <p>
-            Join this track to create tangible artistic projects, ranging from
-            paintings and sculptures to fashion items and wearable tech. In the
-            Physical Track, participants can have a very hands-on experience by
-            designing and making unique pieces of art in any physical form!
-          </p>
-          <h2>Digital</h2>
-          <p>
-            Enter the digital track if you are interested in projects that allow
-            users to interact with diverse forms of art through any type of
-            digital interface! Whether you are constructing an algorithm to
-            create colorful generative art, designing a streaming service to
-            revolutionize our experience of listening to music, developing the
-            next big video game, or in any way involving yourself in the process
-            of building and displaying artistic creations via digital means,
-            this track is for you!
-          </p>
-
+        <div className="registration-flex">
+          <img
+            src="/img/coffee.png"
+            alt="coffee + plants"
+            className="registration-img"
+          />
+          <div className="registration-container">
+            <h2>Tracks!</h2>
+            <h3>Physical</h3>
+            <p>
+              Join this track to create tangible artistic projects, ranging from
+              paintings and sculptures to fashion items and wearable tech. In the
+              Physical Track, participants can have a very hands-on experience by
+              designing and making unique pieces of art in any physical form!
+            </p>
+            <h3>Digital</h3>
+            <p>
+              Enter the digital track if you are interested in projects that allow
+              users to interact with diverse forms of art through any type of
+              digital interface! Whether you are constructing an algorithm to
+              create colorful generative art, designing a streaming service to
+              revolutionize our experience of listening to music, developing the
+              next big video game, or in any way involving yourself in the process
+              of building and displaying artistic creations via digital means,
+              this track is for you!
+            </p>
+          </div>
+        </div>
+        <div className="registration-container2">
           <h2>come to the café!</h2>
           <p>
             Registration is FREE and is down at the moment, it will open very
             soon today! It closes February 27th.
           </p>
-          {/* <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a> */}
+          <a href="https://registration.hexlabs.org/">register now!</a>
         </div>
       </section>
 
       <section id="section-schedule">
-        <div className="schedule-container">
+        {/* <div className="schedule-container">
           <h1>Click to view the schedule!</h1>
           <br></br>
           <a href="https://live.hexlabs.org/schedule">go to schedule!</a>
+        </div> */}
+        <div className="schedule-container">
+          <h2>The schedule is being ﾟ｡･ * . ﾟ☆ crafted up ☆ﾟ. * ･ ｡ﾟ</h2>
+          <img
+              src="/img/sched_pending.png"
+              alt="billboard"
+              className="schedule-img"
+            />
         </div>
       </section>
       <section id="section-faq">
@@ -124,12 +135,11 @@ function MainPage() {
           resources you need so you can focus on your most awesome creation.
         </p>
 
-        {/* <p><strong>Where can I register?</strong></p>
+        <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">here</a> and will close for
-                participants on March 4th, 2023 at 11:59pm
-                </p> */}
-
+                Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
+                participants on February 27th, 2023 at 11:59pm
+                </p>
         <p>
           <strong>What should I bring?</strong>
         </p>
@@ -146,7 +156,7 @@ function MainPage() {
         <p>
           We'll be waiting for you at the Ford Environmental Science &
           Technology Building, aka,
-          <a href="https://www.google.com/maps/place/311+Ferst+Dr+NW,+Atlanta,+GA+30318/@33.778155,-84.3986102,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5048a7f5d81c1:0xfc538f89be7d5c4d!8m2!3d33.778155!4d-84.3964215?coh=164777&entry=tt">
+          <a href="https://goo.gl/maps/W5qzbo52dSTsK5ti9">
             311 Ferst Dr NW, Atlanta, GA 30332
           </a>
         </p>

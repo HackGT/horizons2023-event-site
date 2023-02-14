@@ -145,6 +145,8 @@ p {
 footer {
   display: flex;
   flex-direction: column;
+  background-image: url("../public/img/bg/footerBG.png");
+  background-size: cover;
   background-color: #D1A8AA;;
   color: $black;
   padding: $m192 $m128;
