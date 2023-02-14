@@ -123,7 +123,7 @@
 }
 
 #section-schedule {
-  background-color: #8eaded;
+  background-color: #8EADED;
   color: $black;
   padding: $m192 $m128;
   padding-top: $m192 + $m64;
@@ -133,7 +133,7 @@
   width: 100vw;
 
   h1 {
-    color: #5b5ca6;
+    color: black;
     margin: 0;
     font-size: $h2;
     z-index: 1;
@@ -147,8 +147,20 @@
   }
 
   a {
-    font-family: "Josefin Sans";
-    display: inline;
+    display: inline-block;
+    font-size: $p;
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    border: solid $black 2px;
+    border-radius: $m16;
+    padding: $m12 $m64;
+    transition: all 0.2s ease;
+  }
+
+  a:hover {
+    color: #5b5ca6;
+    transform: scale(1.1);
   }
 
   .schedule-container {
