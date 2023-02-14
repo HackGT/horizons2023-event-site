@@ -23,7 +23,7 @@
   }
 
   .hero-title {
-    font-family: "El Messiri";
+    font-family: "Josefin Sans Bold";
     font-size: 72px;
   }
 
@@ -128,7 +128,7 @@
   }
 
   a {
-    font-family: "El Messiri";
+    font-family: "Josefin Sans Bold";
     display: inline;
   }
 
@@ -158,17 +158,19 @@
 }
 
 #section-faq {
-  background-color: #fcf8ea;
+  background-color: #b4ce85;
   color: $black;
   padding: 0 $m128;
   padding-bottom: $m192;
+  padding-top: $m128;
   display: flex;
   flex-direction: column;
   width: 100vw;
 
   h1 {
-    color: #5b5ca6;
+    color: $black;
     margin-bottom: $m32;
+    text-align: center;
   }
 
   p {
@@ -179,14 +181,14 @@
   a {
     display: inline;
     text-decoration: underline;
-    color: #5b5ca6;
+    color: $black;
     font-weight: 700;
   }
 }
 
 #section-express {
-  background-color: #9f83d1;
-  color: $white;
+  background-color: #ffce7a;
+  color: $black;
   padding: $m192 $m128;
   display: flex;
   flex-direction: column;
@@ -194,7 +196,7 @@
 
   h1 {
     margin-bottom: $m24;
-    color: #eafbf9;
+    color: $black;
   }
 
   p {
@@ -204,6 +206,18 @@
   .express-container {
     width: $w12;
     margin-bottom: $m48;
+  }
+
+  .express-container-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      width: $w7;
+      font-weight: 700;
+    }
   }
 
   .express-container-quote {

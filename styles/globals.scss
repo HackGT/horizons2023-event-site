@@ -3,6 +3,7 @@
 //
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 @font-face {
   font-family: "El Messiri";
@@ -12,6 +13,16 @@
 @font-face {
   font-family: "Open Sans";
   src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Josefin Sans Regular";
+  src: url("JosefinSans-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url("JosefinSans-Bold.ttf")
 }
 
 * {
@@ -95,7 +106,7 @@ textarea {
 a {
   color: inherit;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: inherit;
 }
 
@@ -108,13 +119,13 @@ video {
 }
 
 h1 {
-  font-family: "El Messiri", sans-serif;
+  font-family: "Josefin Sans Bold", sans-serif;
   font-size: $h1;
   font-weight: 700;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: $p;
   font-weight: 400;
 }
@@ -122,8 +133,8 @@ p {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #43434a;
-  color: $white;
+  background-color: #D1A8AA;;
+  color: $black;
   padding: $m192 $m128;
   text-align: center;
   align-items: center;
