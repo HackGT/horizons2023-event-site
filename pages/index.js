@@ -15,31 +15,26 @@ function MainPage() {
                 </div>
             </section>
             <section id="section-about">
-                <div className="about-container">
+            <div className="about-container">
                 <h2>About</h2>
-                <p>There's a new event on the Horizon 🌅 👀!</p>
+                <p>Welcome to the Horizons Sketchbook Cafe! -ˋˏ ༻ ☕ ༺ ˎˊ-</p>
                 <p>
-                    HexLabs is thrilled to welcome you to 🎨
-                    <strong>Horizons: a 24-hour arts + tech make-a-thon!</strong> This event
-                    is open to anyone who wants to create for the sake of creating-
-                    regardless of major, skillset, or experience. Whether you're an art
-                    aficionado, a low-key music mixer 🎶, code wizard, crocheting
-                    connoisseur, an engineer at heart 🎠, or a passionate storyteller 🎬,
-                    your intrinsic connection to creativity is what makes Horizons THE event
-                    for you!
+                HexLabs is excited to welcome you back to 🎨 Horizons: the 24-hour arts + tech make-a-thon! 
+                All university students in Georgia are welcome to join and express their creativity free 
+                from the constraints of major, skillset, or experience! Whether you enjoy sharing your 
+                love for visual art 🖼, telling genius storylines 📚, showcasing your newest beats 🎶, 
+                mastering up lines of code 👾, or engineering incredible creations 🧩, your intrinsic connection 
+                to creativity is what makes Horizons THE event for you!
                 </p>
                 <p>
-                    <strong>
-                    🌿 From March 11-12th, explore your unique skills and ideas at Georgia
-                    Tech 🌱
-                    </strong>
+                From ☕️🧸🤎 March 11-12th 🤎🧸☕️, showcase your unique skills and 
+                ideas at our sketchbook cafe held in the  Ford Environmental Science & Technology Building.
                 </p>
                 <p>
-                    During this weekend, participants will brainstorm, design, and create
-                    projects of their interests that integrate arts and technology while
-                    attending fun workshops and mini-events. At the end of the event, there
-                    will also be a display of all the projects where judges will vote for
-                    specific categories and award prizes to winning teams. 👀
+                During this weekend, participants will brainstorm, design, and create projects of their 
+                interests that integrate arts and technology while attending fun workshops and mini-events 🤗. 
+                At the end of the event, there will also be a display of all the projects where judges will vote 
+                for specific categories and award prizes to winning teams. 👀
                 </p>
                 </div>
                 <img
@@ -48,34 +43,44 @@ function MainPage() {
                 className="about-img"
                 />
             </section>
+
             <section id="section-registration">
                 <img
-                src="/img/tracks-digital.png"
-                alt="a blue and pink flower"
+                src="/img/coffee.png"
+                alt="coffee + plants"
                 className="registration-img"
                 />
                 <div className="registration-container">
-                <h2>come to the café!</h2>
-                <p>Registration is FREE and is open NOW. It closes March 4th.</p>
+                <h2>Tracks!</h2>
+                <h2>Physical</h2>
+                <p>Join this track to create tangible artistic projects, ranging from paintings and 
+                    sculptures to fashion items and wearable tech. In the Physical Track, participants 
+                    can have a very hands-on experience by designing and making unique pieces of art in 
+                    any physical form!</p>
+                <h2>Digital</h2>
+                <p>Enter the digital track if you are interested in projects that allow users to interact 
+                    with diverse forms of art through any type of digital interface! Whether you are constructing
+                     an algorithm to create colorful generative art, designing a streaming service to 
+                     revolutionize our experience of listening to music, developing the next big video game, 
+                     or in any way involving yourself in the process of building and displaying artistic 
+                     creations via digital means, this track is for you!</p>
+
+                     <h2>come to the café!</h2>
+                <p>Registration is FREE and is open NOW. It closes February 27th.</p>
                 <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
             </section>
+
             <section id="section-schedule">
                 <div className="schedule-container">
+                
                 <h1>
-                ☆ﾟ. * ･ ｡ﾟ <br/>The schedule is being crafted up ﾟ｡･ * . ﾟ☆ 
+                 Click to view the schedule!
                 </h1>
-                <img
-                    src="/img/quote-bg.png"
-                    alt="a bear holding paint"
-                    className="schedule-img-background"
-                />
+                <br></br>
+                <a href="https://live.hexlabs.org/schedule">go to schedule!</a>
                 </div>
-                <img
-                src="/img/bear.png"
-                alt="a quote bubble surrounded with flowers"
-                className="schedule-img"
-                />
+    
             </section>
             <section id="section-faq">
                 <h2>frequently asked questions</h2>
@@ -104,13 +109,13 @@ function MainPage() {
 
                 <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration will open on Tuesday, February 14th and will close for participants 
-                on Saturday, March 4th.
+                Registration is open <a href="https://forms.gle/RCz4cEZgmgqmHvocA">here</a> and will close for
+                participants on Monday, February 27th, 2023 at 11:59pm
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
                 <p>
-                We request that you bring yourself 😊, your laptop, and your
+                We request that you bring yourself :relaxed:, your laptop, and your
                 student ID! If you are not a Georgia Tech student you will also need to
                 bring a government ID and student ID. Feel free to bring anything else
                 (art supplies, tools, etc...) that you think would be helpful.
@@ -118,7 +123,9 @@ function MainPage() {
 
                 <p><strong>Where is Horizons?</strong></p>
                 <p>
-                We'll be waiting for you at the...TBD
+                We'll be waiting for you at the Ford Environmental Science & Technology Building, aka, 
+                 <a href="https://www.google.com/maps/place/311+Ferst+Dr+NW,+Atlanta,+GA+30318/@33.778155,-84.3986102,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5048a7f5d81c1:0xfc538f89be7d5c4d!8m2!3d33.778155!4d-84.3964215?coh=164777&entry=tt"
+                    >311 Ferst Dr NW, Atlanta, GA 30332</a>
                 </p>
 
                 <p><strong>Will there be any makerspaces open during the event?</strong></p>
@@ -130,8 +137,8 @@ function MainPage() {
 
                 <p><strong>How long is the event?</strong></p>
                 <p>
-                Two days! Day 1 (Saturday March 11) will start at 8:00 AM and continue onto 
-                day 2 (Sunday, March 12) and finish at 4:00 PM.
+                Two days! Day 1 (Saturday March 11) will start at (TBD) and finish at
+                (TBD); Day 2 (Sunday, March 12) will start at (TBD) and finish at (TBD).
                 </p>
 
                 <p><strong>What resources will be there?</strong></p>
@@ -156,7 +163,7 @@ function MainPage() {
 
                 <p><strong>Any other questions?</strong></p>
                 <p>
-                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org</a>  💜.
+                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>.
                 </p>
             </section>
             <section id="section-express">
