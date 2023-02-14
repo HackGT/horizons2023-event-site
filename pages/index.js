@@ -161,8 +161,8 @@ function MainPage() {
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h1>express yourself</h1>
-                <div classname="express-container-paragraph">
+                <h1>express yourself!</h1>
+                <div className="express-container-paragraph">
                     <div>
                     <p>
                     Horizons is a celebration of the incredible intersection between art and
@@ -179,7 +179,7 @@ function MainPage() {
                     <img
                         src="/img/macaron.png"
                         alt="macarons"
-                        className="quote-img"
+                        className="paragraph-img"
                     />
                 </div>
                 </div>

@@ -170,6 +170,7 @@
   h1 {
     color: $black;
     margin-bottom: $m32;
+    text-align: center;
   }
 
   p {
@@ -180,7 +181,7 @@
   a {
     display: inline;
     text-decoration: underline;
-    color: #5b5ca6;
+    color: $black;
     font-weight: 700;
   }
 }
@@ -215,7 +216,7 @@
 
     p {
       width: $w7;
-      text-align: start;
+      font-weight: 700;
     }
   }
 
