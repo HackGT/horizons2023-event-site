@@ -66,7 +66,7 @@ function MainPage() {
                      creations via digital means, this track is for you!</p>
 
                      <h2>come to the café!</h2>
-                <p>Registration is FREE and is open NOW. It closes February 27th.</p>
+                <p>Registration is FREE and is open NOW. It closes March 4th.</p>
                 <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">register now!</a>
                 </div>
             </section>
@@ -110,7 +110,7 @@ function MainPage() {
                 <p><strong>Where can I register?</strong></p>
                 <p>
                 Registration is open <a href="https://forms.gle/zQ2DRyShk9Gwz8Wd8">here</a> and will close for
-                participants on Monday, February 27th, 2023 at 11:59pm
+                participants on Monday, March 4th, 2023 at 11:59pm
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
@@ -137,8 +137,8 @@ function MainPage() {
 
                 <p><strong>How long is the event?</strong></p>
                 <p>
-                Two days! Day 1 (Saturday March 11) will start at (TBD) and finish at
-                (TBD); Day 2 (Sunday, March 12) will start at (TBD) and finish at (TBD).
+                Two days! Day 1 (Saturday March 11) will start at 8:00 AM and continue onto 
+                day 2 (Sunday, March 12) and finish at 4:00 PM.
                 </p>
 
                 <p><strong>What resources will be there?</strong></p>
