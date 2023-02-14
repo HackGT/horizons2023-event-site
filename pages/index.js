@@ -1,22 +1,22 @@
+import Link from "next/link";
+
 function MainPage() {
     return (
         <body>
             <section id="section-hero">
                 <div className="hero-container">
-                <h1 className="hero-title">HORIZONS</h1>
-                <p>Georgia Tech</p>
-                <p>Instructional Center, Mason Building</p>
-                <p>March 12th-13th</p>
+                    <h1 className="hero-title">Horizons</h1>
+                    <div className="hero-subtitle">
+                        <h3>georgia tech</h3>
+                        <h3>location pending</h3>
+                        <h3>march 11th-12th</h3>
+                    </div>
+                    <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
                 </div>
-                <img
-                    src="/img/juice-mushroom.png"
-                    alt="illustration of a mushroom"
-                    className="hero-img"
-                />
             </section>
             <section id="section-about">
                 <div className="about-container">
-                <h1>About</h1>
+                <h2>About</h2>
                 <p>There's a new event on the Horizon 🌅 👀!</p>
                 <p>
                     HexLabs is thrilled to welcome you to 🎨
@@ -29,8 +29,10 @@ function MainPage() {
                     for you!
                 </p>
                 <p>
-                    🌿 From March 12-13th, explore your unique skills and ideas at Georgia
-                    Tech 🌱 ✨.
+                    <strong>
+                    🌿 From March 11-12th, explore your unique skills and ideas at Georgia
+                    Tech 🌱
+                    </strong>
                 </p>
                 <p>
                     During this weekend, participants will brainstorm, design, and create
@@ -41,27 +43,27 @@ function MainPage() {
                 </p>
                 </div>
                 <img
-                src="/img/basket-mushrooms.png"
-                alt="falling mushrooms and a basket"
+                src="/img/about.png"
+                alt="strawberry shortcake"
                 className="about-img"
                 />
             </section>
             <section id="section-registration">
                 <img
-                src="/img/flowers-0.png"
+                src="/img/tracks-digital.png"
                 alt="a blue and pink flower"
                 className="registration-img"
                 />
                 <div className="registration-container">
-                <h1>Registration</h1>
+                <h2>come to the café!</h2>
                 <p>Registration is FREE and is open NOW. It closes March 4th.</p>
-                <a href="https://forms.gle/RCz4cEZgmgqmHvocA">Register Now!</a>
+                <a href="https://registration.hexlabs.org/">register now!</a>
                 </div>
             </section>
             <section id="section-schedule">
                 <div className="schedule-container">
                 <h1>
-                    The schedule can be found <u><a href="https://live.hexlabs.org/">here!</a></u>
+                ☆ﾟ. * ･ ｡ﾟ <br/>The schedule is being crafted up ﾟ｡･ * . ﾟ☆ 
                 </h1>
                 <img
                     src="/img/quote-bg.png"
@@ -76,7 +78,7 @@ function MainPage() {
                 />
             </section>
             <section id="section-faq">
-                <h1>Frequently Asked Questions</h1>
+                <h2>Frequently Asked Questions</h2>
 
                 <p>
                 <strong>So I've heard of a hackathon, but what's a make-a-thon?</strong>
@@ -93,11 +95,11 @@ function MainPage() {
                 mini-events and great vibes, students from any background can come and
                 enjoy!
                 </p>
-                <p><strong>When and where can I go to check in for Horizons?</strong></p>
+                {/* <p><strong>When and where can I go to check in for Horizons?</strong></p>
                 <p>
                 You can find the check-in desks at the Instructional Center, which is located at <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6"
                     >759 Ferst Dr. NW, Atlanta, GA 30318.</a> Check-in begins at <strong>10 AM on Saturday, March 12th, 2022</strong>. We hope to see you there!
-                </p>
+                </p> */}
 
                 
                 <p><strong>Can I attend the event virtually?</strong></p>
@@ -114,8 +116,8 @@ function MainPage() {
 
                 <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open <a href="https://forms.gle/RCz4cEZgmgqmHvocA">here</a> and will close for
-                participants on Friday, March 4th, 2022 at 11:59pm
+                Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
+                participants on Saturday, March 4th, 2022 at 11:59pm
                 </p>
 
                 <p><strong>What should I bring?</strong></p>
@@ -126,12 +128,11 @@ function MainPage() {
                 (art supplies, tools, etc...) that you think would be helpful.
                 </p>
 
-                <p><strong>Where is Horizons?</strong></p>
+                {/* <p><strong>Where is Horizons?</strong></p>
                 <p>
-                We'll be waiting for you at the Instructional Center, aka,
-                <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6"
-                    >759 Ferst Dr. NW, Atlanta, GA 30318.</a>
-                </p>
+                We'll be waiting for you at the Instructional Center, aka, <a href="https://goo.gl/maps/rk4Ks2nU5DwuGHxR6">
+                    759 Ferst Dr. NW, Atlanta, GA 30318.</a>
+                </p> */}
 
                 <p><strong>Will there be any makerspaces open during the event?</strong></p>
                 <p>
@@ -142,8 +143,8 @@ function MainPage() {
 
                 <p><strong>How long is the event?</strong></p>
                 <p>
-                Two days! Day 1 (Saturday March 12) will start at (TBD) and finish at
-                (TBD); Day 2 (Sunday, March 13) will start at (TBD) and finish at (TBD).
+                Two days! On Day 1 (Saturday March 11), the event will start at 8:00 AM; 
+                On Day 2 (Sunday, March 12), the event will finish at 4:00 PM.
                 </p>
 
                 <p><strong>What resources will be there?</strong></p>
@@ -168,12 +169,12 @@ function MainPage() {
 
                 <p><strong>Any other questions?</strong></p>
                 <p>
-                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>.
+                Email us at <a href="mailto:hello@hexlabs.org">hello@hexlabs.org</a>  💜.
                 </p>
             </section>
             <section id="section-express">
                 <div className="express-container">
-                <h1>Express Yourself</h1>
+                <h2>Express Yourself</h2>
                 <p>
                     Horizons is a celebration of the incredible intersection between art and
                     technology. It is a platform for people to express themselves through

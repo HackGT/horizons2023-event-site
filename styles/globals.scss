@@ -3,6 +3,7 @@
 //
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 @font-face {
   font-family: "El Messiri";
@@ -12,6 +13,16 @@
 @font-face {
   font-family: "Open Sans";
   src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Hello Ketta";
+  src: url("HelloKetta-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Josefin Sans', sans-serif;
+  src: url('JosefinSans.ttf');
 }
 
 * {
@@ -46,12 +57,12 @@ span,
 table,
 textarea,
 ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   font: inherit;
   font-family: inherit;
-  font-size: 100%;
+  font-size: inherit;
 }
 
 body,
@@ -95,7 +106,7 @@ textarea {
 a {
   color: inherit;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: inherit;
 }
 
@@ -108,13 +119,25 @@ video {
 }
 
 h1 {
-  font-family: "El Messiri", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: $h1;
-  font-weight: 700;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: $h2;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: $h3;
+  font-weight: 200;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: $p;
   font-weight: 400;
 }
@@ -124,21 +147,17 @@ footer {
   flex-direction: column;
   background-color: #43434a;
   color: $white;
-  padding: $m192 $m128;
+  padding: $m48 $m48;
   text-align: center;
   align-items: center;
   width: 100vw;
   border: none;
   outline: none;
 
-  p {
-    margin-bottom: $m24;
-  }
-
   .icon-container {
     display: flex;
     flex-direction: row;
-    margin-top: $m48;
+    margin-top: $m12;
 
     img {
       width: 48px;
@@ -159,12 +178,78 @@ footer {
     font-size: $h1Mobile;
   }
 
+  h2 {
+    font-size: $h2Mobile;
+  }
+
+  h3 {
+    font-size: $h3Mobile;
+  }
+
   p {
     font-size: $pMobile;
   }
 
   footer {
     padding: $m96Mobile $m16Mobile;
+
+    .icon-container {
+      img {
+        width: 32px;
+        margin: 6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: calc($h1 / 2);
+  }
+
+  h2 {
+    font-size: calc($h2 / 1.5);
+  }
+
+  h3 {
+    font-size: calc($h3 / 1.2);
+  }
+
+  p {
+    font-size: $p;
+  }
+
+  footer {
+    padding: $m96 $m16;
+
+    .icon-container {
+      img {
+        width: 32px;
+        margin: 6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 2048px) {
+  h1 {
+    font-size: $h1;
+  }
+
+  h2 {
+    font-size: $h2;
+  }
+
+  h3 {
+    font-size: $h3;
+  }
+
+  p {
+    font-size: $p;
+  }
+
+  footer {
+    padding: $m96 $m16;
 
     .icon-container {
       img {

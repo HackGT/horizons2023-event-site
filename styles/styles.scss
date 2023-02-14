@@ -3,40 +3,55 @@
 //
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Open+Sans:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 //
 //// Styling
 //
 
 #section-hero {
-  background-color: #43434a;
-  padding: $m192 $m128;
-  color: #eafbf9;
+  // background-image: url("../public/img/hero.png");
+  // background-size: cover;
+  width: auto;
+  height: auto;
+  padding: $m48 $m16;
+  color: #000000;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100vw;
-
-  .hero-container {
-    margin-right: calc($w1 + 2 * $m24);
-    width: $w6;
-  }
+  text-align: center;
 
   .hero-title {
-    font-family: "El Messiri";
-    font-size: 72px;
+    font-family: "Hello Ketta";
+    font-weight: 500;
+    margin-bottom: 0%;
+    margin-top: 5%;
   }
 
-  .hero-img {
-    width: $w5;
-    height: auto;
+  .hero-subtitle {
+    font-family: "Josefin Sans";
+    margin-bottom: 10%;
+  }
+
+  .hero-button {
+    display: inline-block;
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #8eaded;
+    color: #ffffff;
+    padding: 2% $m64;
+    transition: all 0.2s ease;
+    margin-bottom: 20%;
+  }
+
+  .hero-button:hover {
+    transform: scale(1.1);
   }
 }
 
+
 #section-about {
-  background-color: #48916e;
+  background-color: #ffcbb9;
   padding: $m192 $m128;
-  color: $white;
+  color: $black;
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -55,15 +70,22 @@
   }
 
   .about-img {
-    width: $w4;
-    height: fit-content;
+    width: $w5;
+    height: auto;
+  }
+
+  .registration-button {
+    width: auto;
+    height: auto;
+    padding-left: 0px;
+    background-color: #8eaded;
   }
 }
 
 #section-registration {
-  background-color: #5b5ca6;
+  background-color: #d1c7e8;
   padding: $m192 $m128;
-  color: #eafbf9;
+  color: #000000;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -81,31 +103,27 @@
     display: inline-block;
     font-size: $p;
     font-weight: 700;
+    text-align: center;
     background-color: transparent;
-    border: solid $white 2px;
+    border: solid $black 2px;
     border-radius: $m16;
-    padding: $m12 $m24;
+    padding: $m12 $m64;
     transition: all 0.2s ease;
   }
 
   a:hover {
     color: #5b5ca6;
-    background-color: $white;
+    transform: scale(1.1);
   }
 
   .registration-container {
     width: $w6;
     margin-left: calc($w1 + 2 * $m24);
   }
-
-  .registration-img {
-    width: $w5;
-    height: auto;
-  }
 }
 
 #section-schedule {
-  background-color: #fcf8ea;
+  background-color: #8eaded;
   color: $black;
   padding: $m192 $m128;
   padding-top: $m192 + $m64;
@@ -116,7 +134,8 @@
 
   h1 {
     color: #5b5ca6;
-    margin-bottom: 0;
+    margin: 0;
+    font-size: $h2;
     z-index: 1;
     width: $w5;
   }
@@ -128,7 +147,7 @@
   }
 
   a {
-    font-family: "El Messiri";
+    font-family: "Josefin Sans";
     display: inline;
   }
 
@@ -172,7 +191,7 @@
   }
 
   p {
-    margin-bottom: $m32;
+    margin-bottom: calc($m16 / 2);
     width: $w12;
   }
 
@@ -261,19 +280,23 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   #section-hero {
-    flex-direction: column;
-    padding: $m96Mobile $m16Mobile;
-    align-items: flex-start;
+    padding: $m48Mobile $m16Mobile;
+    align-items: center;
 
     .hero-container {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
       width: $w4Mobile;
       text-align: end;
-
+      
+      h1 {
+        width: $w4Mobile;
+        text-align: center;
+        font-size: $h1;
+      }
       p {
         width: $w4Mobile;
       }
@@ -287,6 +310,11 @@
     .hero-title {
       width: $w4Mobile;
       font-size: 72px;
+    }
+
+    .hero-button {
+      width: $w2Mobile;
+      text-align: center;
     }
   }
 
@@ -309,10 +337,7 @@
 
     .about-img {
       width: $w2Mobile;
-      margin: 0;
-      margin-bottom: $m16Mobile;
-      margin-right: $w1;
-      align-self: flex-end;
+      height: auto;
     }
   }
 
@@ -337,11 +362,9 @@
     }
 
     a {
+      display: inline-block;
       font-size: $pMobile;
-      padding: $m16Mobile $m32Mobile;
-      background-color: $white;
-      color: #5b5ca6;
-      width: 100%;
+      color: $black;
       text-align: center;
     }
 
