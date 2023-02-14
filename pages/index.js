@@ -174,15 +174,15 @@ function MainPage() {
                 </p>
                 <p>At Horizons, we challenge you to do just that!</p>
                 <img
-                    src="/img/flowers-1.png"
-                    alt="flowers and butterflies"
+                    src="/img/macaron.png"
+                    alt="macarons"
                     className="quote-img"
                 />
                 </div>
                 <div className="express-container-quote">
                 <img
-                    src="/img/flowers-1.png"
-                    alt="flowers and butterflies"
+                    src="/img/croissant.png"
+                    alt="croissant"
                     className="quote-img"
                 />
                 <div>
