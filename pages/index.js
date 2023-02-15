@@ -81,8 +81,7 @@ function MainPage() {
         <div className="registration-container2">
           <h2>come to the café!</h2>
           <p>
-            Registration is FREE and is down at the moment, it will open very
-            soon today! It closes February 27th.
+            Registration is FREE and open now! It closes February 27th.
           </p>
           <a href="https://registration.hexlabs.org/">register now!</a>
         </div>
