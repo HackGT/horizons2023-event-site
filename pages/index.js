@@ -95,7 +95,8 @@ function MainPage() {
           <a href="https://live.hexlabs.org/schedule">go to schedule!</a>
         </div> */}
         <div className="schedule-container">
-          <h2>The schedule is being ﾟ｡･ * . ﾟ☆ crafted up ☆ﾟ. * ･ ｡ﾟ</h2>
+          <h2>The schedule is being</h2>
+          <h2>ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
           <img
               src="/img/sched_pending.png"
               alt="billboard"
