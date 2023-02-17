@@ -8,7 +8,7 @@ function MainPage() {
           <h1 className="hero-title">Horizons</h1>
           <div className="hero-subtitle">
             <h3>georgia tech</h3>
-            <h3>ford environmental science & technology building</h3>
+            <h3>east architecture building</h3>
             <h3>march 11th-12th</h3>
           </div>
           <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
@@ -30,8 +30,7 @@ function MainPage() {
           </p>
           <p>
             From ☕️🧸🤎 March 11-12th 🤎🧸☕️, showcase your unique skills and
-            ideas at our sketchbook cafe held in the Ford Environmental Science
-            & Technology Building.
+            ideas at our sketchbook cafe held in the East Architecture Building.
           </p>
           <p>
             During this weekend, participants will brainstorm, design, and
@@ -154,10 +153,9 @@ function MainPage() {
           <strong>Where is Horizons?</strong>
         </p>
         <p>
-          We'll be waiting for you at the Ford Environmental Science &
-          Technology Building, aka,
-          <a href="https://goo.gl/maps/W5qzbo52dSTsK5ti9">
-            311 Ferst Dr NW, Atlanta, GA 30332
+          We'll be waiting for you at the East Architecture Building, aka,
+          <a href="https://goo.gl/maps/m4GE2RuCWy317RAw9">
+            245 4th St NW, Atlanta, GA 30313
           </a>
         </p>
 
