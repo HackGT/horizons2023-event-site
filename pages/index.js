@@ -80,7 +80,7 @@ function MainPage() {
         <div className="registration-container2">
           <h2>come to the café!</h2>
           <p>
-            Registration is FREE and open now! It closes February 27th.
+            Registration is FREE and open now! It closes March 6th.
           </p>
           <a href="https://registration.hexlabs.org/">register now!</a>
         </div>
@@ -137,7 +137,7 @@ function MainPage() {
         <p><strong>Where can I register?</strong></p>
                 <p>
                 Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
-                participants on February 27th, 2023 at 11:59pm
+                participants on March 6th, 2023 at 11:59pm
                 </p>
         <p>
           <strong>What should I bring?</strong>
