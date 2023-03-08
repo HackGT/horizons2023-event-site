@@ -172,7 +172,7 @@ function MainPage() {
           <strong>How long is the event?</strong>
         </p>
         <p>
-          Two days! Day 1 (Saturday March 11) will start at 8:00 AM and continue
+          Two days! Day 1 (Saturday March 11) will start at 10:00 AM and continue
           onto day 2 (Sunday, March 12) and finish at 4:00 PM.
         </p>
 
