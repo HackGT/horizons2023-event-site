@@ -5,19 +5,21 @@ function MainPage() {
     <body>
       <section id="section-hero">
         <div className="hero-container">
-          <h1 className="hero-title">Horizons</h1>
+          <h1 className="hero-title">HORIZONS</h1>
           <div className="hero-subtitle">
-            <h3>georgia tech</h3>
-            <h3>east architecture building</h3>
-            <h3>march 11th-12th</h3>
+            <strong>
+            <h3>Georgia Tech</h3>
+            <h3>Instructional Center Room XXX</h3>
+            <h3>March 8th-9th</h3>
+            </strong>
+           
           </div>
-          <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
+          <a className="hero-button" href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
       <section id="section-about">
         <div className="about-container">
-          <h2>About</h2>
-          <p>Welcome to the Horizons Sketchbook Cafe! -ˋˏ ༻ ☕ ༺ ˎˊ-</p>
+          <h2 className ="about-title">About</h2>
           <p>
             HexLabs is excited to welcome you back to 🎨 Horizons: the 24-hour
             arts + tech make-a-thon! All university students in Georgia are
@@ -27,18 +29,6 @@ function MainPage() {
             showcasing your newest beats 🎶, mastering up lines of code 👾, or
             engineering incredible creations 🧩, your intrinsic connection to
             creativity is what makes Horizons THE event for you!
-          </p>
-          <p>
-            From ☕️🧸🤎 March 11-12th 🤎🧸☕️, showcase your unique skills and
-            ideas at our sketchbook cafe held in the East Architecture Building.
-          </p>
-          <p>
-            During this weekend, participants will brainstorm, design, and
-            create projects of their interests that integrate arts and
-            technology while attending fun workshops and mini-events 🤗. At the
-            end of the event, there will also be a display of all the projects
-            where judges will vote for specific categories and award prizes to
-            winning teams. 👀
           </p>
         </div>
         <img
@@ -56,8 +46,8 @@ function MainPage() {
             className="registration-img"
           />
           <div className="registration-container">
-            <h2>Tracks!</h2>
-            <h3>Physical</h3>
+            <h2 className ="track-title">Tracks!</h2>
+            <h3 className ="physical-title">Physical</h3>
             <p>
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
@@ -77,12 +67,11 @@ function MainPage() {
             </p>
           </div>
         </div>
-        <div className="registration-container2">
-          <h2>come to the café!</h2>
+        <div className ="registration-container2">
           <p>
-            Registration is FREE and open now! It closes March 6th.
+            Registration is FREE and open on Tuesday, February 14th at horizons.hexlabs.org and closes on Saturday, March 4th
           </p>
-          <a href="https://registration.hexlabs.org/">register now!</a>
+          <a href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
 
@@ -95,6 +84,7 @@ function MainPage() {
         <div className="schedule-container">
           <h2>The schedule is being</h2>
           <h2>ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
+          <h3>*subject to change as more details arrive :) </h3>
           <img
               src="/img/sched_pending.png"
               alt="billboard"
@@ -103,7 +93,7 @@ function MainPage() {
         </div>
       </section>
       <section id="section-faq">
-        <h2>frequently asked questions</h2>
+        <h2 className ="faq-title">FAQ</h2>
 
         <p>
           <strong>
@@ -136,8 +126,8 @@ function MainPage() {
 
         <p><strong>Where can I register?</strong></p>
                 <p>
-                Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
-                participants on March 6th, 2023 at 11:59pm
+                Registration is <a href="https://registration.hexlabs.org/">open</a> and will close for
+                participants on Monday, February 28 2024 at 11:59pm
                 </p>
         <p>
           <strong>What should I bring?</strong>
@@ -145,7 +135,7 @@ function MainPage() {
         <p>
           We request that you bring yourself, your laptop, and your student ID!
           If you are not a Georgia Tech student you will also need to bring a
-          government ID and student ID. Feel free to bring anything else (art
+          government ID. Feel free to bring anything else (art
           supplies, tools, etc...) that you think would be helpful.
         </p>
 
@@ -153,9 +143,9 @@ function MainPage() {
           <strong>Where is Horizons?</strong>
         </p>
         <p>
-          We'll be waiting for you at the East Architecture Building, aka,
-          <a href="https://goo.gl/maps/m4GE2RuCWy317RAw9">
-            245 4th St NW, Atlanta, GA 30313
+          We'll be waiting for you at the Instructional Center, aka,
+          <a href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">
+            759 Ferst Dr. NW, Atlanta, GA 30318
           </a>
         </p>
 
@@ -172,8 +162,8 @@ function MainPage() {
           <strong>How long is the event?</strong>
         </p>
         <p>
-          Two days! Day 1 (Saturday March 11) will start at 10:00 AM and continue
-          onto day 2 (Sunday, March 12) and finish at 4:00 PM.
+          Two days! Day 1 (Saturday March 12) will start at START TIME and finish at FINISH TIME;
+          Day 2 (Sunday, March 13) will start at START TIME and finish at END TIME.
         </p>
 
         <p>
