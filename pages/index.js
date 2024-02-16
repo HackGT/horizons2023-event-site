@@ -10,7 +10,7 @@ function MainPage() {
             <strong>
             <h3>Georgia Tech</h3>
             <h3>Instructional Center Room XXX</h3>
-            <h3>March 8th-9th</h3>
+            <h3>March 9th-10th</h3>
             </strong>
            
           </div>
@@ -63,7 +63,7 @@ function MainPage() {
           </div>
           <div className ="registration-container2">
             <p>
-              Registration is FREE and open on Tuesday, February 14th at horizons.hexlabs.org and closes on Saturday, March 4th
+              Registration is FREE and open on Friday, February 16th at horizons.hexlabs.org and closes on Friday, March 1st
             </p>
             <a className ="registration-button" href="https://registration.hexlabs.org/">Register Here</a>
           </div>
@@ -115,7 +115,7 @@ function MainPage() {
           <p><strong>Where can I register?</strong></p>
                   <p>
                   Registration is <a style={{color: 'white'}} href="https://registration.hexlabs.org/">open</a> and will close for
-                  participants on Monday, February 28 2024 at 11:59pm
+                  participants on Friday, March 1 2024 at 11:59pm
                   </p>
           <p>
             <strong>What should I bring?</strong>
@@ -149,8 +149,8 @@ function MainPage() {
             <strong>How long is the event?</strong>
           </p>
           <p>
-            Two days! Day 1 (Saturday March 12) will start at START TIME and finish at FINISH TIME;
-            Day 2 (Sunday, March 13) will start at START TIME and finish at END TIME.
+            Two days! Day 1 (Saturday March 9) will start at 10am;
+            Day 2 (Sunday, March 10) will finish at 1:30pm.
           </p>
 
           <p>
