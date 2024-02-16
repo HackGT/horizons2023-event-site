@@ -18,16 +18,26 @@
   display: flex;
   text-align: center;
 
-  .hero-title {
-    font-family: "Hello Ketta";
-    font-weight: 500;
-    margin-bottom: 0%;
-    margin-top: 5%;
+  .hero-subtitle {
+    font-family: "Josefin Sans Bold"; // ??? bold or normal?
+    margin-bottom: 10%;
+    // ??? added all below
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 10px;
   }
 
-  .hero-subtitle {
-    font-family: "Josefin Sans";
+  .hero-title {
+    font-family: "celestialFree";
+    margin-top: 50%;
     margin-bottom: 10%;
+    padding-top: 70%;
+    font-size: 90px;
+    font-weight: 500;
+    // ??? prev settings
+    // font-weight: 500;
+    // margin-bottom: 0%;
+    // margin-top: 5%;
   }
 
   .hero-button {
@@ -40,7 +50,7 @@
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     padding: 2% $m64;
     transition: all 0.2s ease;
-    margin-bottom: 20%;
+    margin-bottom: 10%; // ??? or old 20%
   }
 
   .hero-button:hover {
@@ -48,6 +58,12 @@
   }
 }
 
+#gradient {
+  background-image: linear-gradient(#383062, #281D36);
+  background-size: cover;
+  padding-bottom: 500px;
+
+}
 
 #section-about {
   display: flex;
@@ -62,14 +78,33 @@
   flex-direction: row;
   width: 100vw;
 
+  // ??? new settings below
+  // text-align: center;
+  // color: #ffffff;
+
+  // .about-title {
+  //   color: #ffffff;
+  //   font-family: "celestialFree";
+  //   font-weight: 400;
+  //   font-size: 80px;
+  //   margin-top: 0%;
+  //   margin-bottom: calc($m16 / 2);
+  //   width: $w12;
+  // }
+
   h1 {
     margin-bottom: $m24;
   }
 
   p {
-    margin-bottom: $m24;
+    font-size: 20px;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+    // ??? only setting before
+    // margin-bottom: $m24;
   }
 
+  // remove or not?
   .about-container {
     width: $w7;
     margin-right: calc($w1 + 2 * $m24);
@@ -86,6 +121,7 @@
     padding-left: 0px;
     background-color: #8eaded;
   }
+
 }
 
 #section-registration {
@@ -94,6 +130,38 @@
   background-color: #372f61;
   padding: $m192 $m128;
   color: white;
+  // ??? added all below
+  text-align: center;
+  margin-top: -50px;
+
+  .track-title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 30px;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    text-align: column;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: 55px;
+    //margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .descrip{
+    text-align: left;
+    margin-left: 700px;
+    margin-top: -60px;
+  }
 
   h1 {
     margin-bottom: $m32;
@@ -129,6 +197,19 @@
   .registration-container2 {
     text-align: center;
   }
+
+  // ???
+  // .registration-button {
+  //   display: inline-block;
+  //   outline-style: none;
+  //   font-family: "Josefin Sans", sans-serif;
+  //   font-size: 30px;
+  //   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #7f6ea0, 0 0 82px #7f6ea0,0 0 92px #7f6ea0;
+  //   color: #ffffff;
+  //   padding: 2% $m64;
+  //   transition: all 0.2s ease;
+  //   margin-bottom: 10%;
+  // }
 }
 
 #section-schedule {
@@ -140,6 +221,50 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  
+  // ??? add all below
+  // text-align: center;
+  // color: #ffffff;
+  // margin-top: -150px;
+
+  // .schedule-title {
+  //   color: #ffffff;
+  //   font-family: "celestialFree";
+  //   font-weight: 400;
+  //   font-size: 60px;
+  //   margin-top: 50px;
+  //   margin-bottom: calc($m16 / 2);
+  //   width: $w12;
+  // }
+
+  // .schedule1-title{
+  //   color: #ffffff;
+  //   font-weight: 400;
+  //   font-size: 36px;
+  //   margin-top: 4%;
+  //   margin-bottom: calc($m16 / 2);
+  //   width: $w12;
+  // }
+
+  // .crafted-title{
+  //   color: #ffffff;
+  //   color: #ffffff;
+  //   font-weight: 400;
+  //   font-size: 36px;
+  //   margin-top: 0%;
+  //   margin-bottom: calc($m16 / 2);
+  //   width: $w12;
+  // }
+
+  // .subject-title{
+  //   color: #ffffff;
+  //   font-weight: 400;
+  //   font-size: 15px;
+  //   margin-top: 0%;
+  //   margin-bottom: calc($m16 / 2);
+  //   width: $w12;
+  // } 
+  // }
 
   h2 {
     margin: 0;
@@ -169,7 +294,7 @@
     color: #5b5ca6;
     transform: scale(1.1);
   }
-
+  // ??? remove both below
   .schedule-container {
     position: relative;
     display: flex;
@@ -204,6 +329,18 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  // margin-top: -50px; // ??? reqd?
+
+  .faq-title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 0%;
+    //margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
 
   h1 {
     color: $black;
@@ -233,12 +370,20 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  // margin-top: -180px; // ??? need to be added?
 
   h1 {
     margin-bottom: $m24;
     color: $black;
   }
 
+  // ??? add or not?
+  .express-title {
+    color: #ffffff;
+    margin-top: -60px;
+  }
+
+  // ??? remove or keep
   p {
     margin-bottom: $m24;
   }
@@ -253,6 +398,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    // margin-left: -500px; ??? add or not?
 
     p {
       width: $w7;
@@ -265,6 +411,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    // ??? add or not?
+    // margin-right: -100px;
+    // margin-top: -70px;
 
     p {
       width: $w7;
@@ -358,7 +507,7 @@
     .hero-button {
       width: $w2Mobile;
       text-align: center;
-      font-size: 20px;
+      font-size: 20px; // ??? remove or keep?
     }
   }
 
@@ -443,7 +592,7 @@
     }
   }
 
-  #section-schedule {
+ #section-schedule {
     flex-direction: column;
     padding: $m96Mobile $m16Mobile;
     align-items: flex-start;
@@ -484,41 +633,49 @@
     padding-top: 0;
 
     h2 {
+      color: #ffffff; // ??? add or not?
       text-align: center;
       font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
     h3 {
+      color: #ffffff; // ??? add or not?
       text-align: center;
       font-size: $h3Mobile;
     }
 
     p {
+      color: #ffffff; // ??? add or not?
       width: $w4Mobile;
       font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
   }
 
+  
   #section-express {
     padding: $m96Mobile $m16Mobile;
+    color: #ffffff; // ??? add or not?
 
     .express-container {
       width: $w4Mobile;
     }
 
     h2 {
+      color: #ffffff; // ??? add or not?
       text-align: center;
       font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
     h3 {
+      color: #ffffff; // ??? add or not?
       text-align: center;
       font-size: $h3Mobile;
     }
 
+    // ??? remove or not?
     p {
       width: $w4Mobile;
       font-size: $pMobile;
@@ -537,6 +694,7 @@
       width: $w4Mobile;
 
       p {
+        color: #ffffff; // add or not?
         width: 100%;
         text-align: center;
       }

@@ -5,19 +5,24 @@ function MainPage() {
     <body>
       <section id="section-hero">
         <div className="hero-container">
-          <h1 className="hero-title">Horizons</h1>
+          <h1 className="hero-title">HORIZONS</h1>
           <div className="hero-subtitle">
-            <h3>georgia tech</h3>
-            <h3>east architecture building</h3>
-            <h3>march 11th-12th</h3>
+            <strong>
+            <h3>Georgia Tech</h3>
+            <h3>Instructional Center Room XXX</h3>
+            <h3>March 9th-10th</h3>
+            </strong>
+           
           </div>
           <a className="hero-button" href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
+
+      
+
       <section id="section-about">
         <div className="about-container">
-          <h2>About</h2>
-          <p>Welcome to the Horizons Sketchbook Cafe! -ˋˏ ༻ ☕ ༺ ˎˊ-</p>
+          <h2 className ="about-title">About</h2>
           <p>
             HexLabs is excited to welcome you back to 🎨 Horizons: the 24-hour
             arts + tech make-a-thon! All university students in Georgia are
@@ -28,44 +33,22 @@ function MainPage() {
             engineering incredible creations 🧩, your intrinsic connection to
             creativity is what makes Horizons THE event for you!
           </p>
-          <p>
-            From ☕️🧸🤎 March 11-12th 🤎🧸☕️, showcase your unique skills and
-            ideas at our sketchbook cafe held in the East Architecture Building.
-          </p>
-          <p>
-            During this weekend, participants will brainstorm, design, and
-            create projects of their interests that integrate arts and
-            technology while attending fun workshops and mini-events 🤗. At the
-            end of the event, there will also be a display of all the projects
-            where judges will vote for specific categories and award prizes to
-            winning teams. 👀
-          </p>
         </div>
-        <img
-          src="/img/about.png"
-          alt="strawberry shortcake"
-          className="about-img"
-        />
       </section>
 
       <section id="section-registration">
         <div className="registration-flex">
-          <img
-            src="/img/coffee.png"
-            alt="coffee + plants"
-            className="registration-img"
-          />
           <div className="registration-container">
-            <h2>Tracks!</h2>
-            <h3>Physical</h3>
-            <p>
+            <h2 className="track-title">Tracks</h2>
+            <h3 className ="title">Physical</h3>
+            <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
               Physical Track, participants can have a very hands-on experience by
               designing and making unique pieces of art in any physical form!
             </p>
-            <h3>Digital</h3>
-            <p>
+            <h3 className ="title">Digital</h3>
+            <p className="descrip">
               Enter the digital track if you are interested in projects that allow
               users to interact with diverse forms of art through any type of
               digital interface! Whether you are constructing an algorithm to
@@ -77,142 +60,133 @@ function MainPage() {
             </p>
           </div>
         </div>
-        <div className="registration-container2">
-          <h2>come to the café!</h2>
+        <div className ="registration-container2">
           <p>
-            Registration is FREE and open now! It closes March 6th.
+            Registration is FREE and open on Friday, February 16th at horizons.hexlabs.org and closes on Friday, March 1st
           </p>
-          <a href="https://registration.hexlabs.org/">Register Here</a>
+          <a className ="registration-button" href="https://registration.hexlabs.org/">Register Here</a> {/* ??? need classname? */}
         </div>
       </section>
 
       <section id="section-schedule">
-        {/* <div className="schedule-container">
-          <h1>Click to view the schedule!</h1>
-          <br></br>
-          <a href="https://live.hexlabs.org/schedule">go to schedule!</a>
-        </div> */}
         <div className="schedule-container">
-          <h2>The schedule is being</h2>
-          <h2>ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
-          <img
-              src="/img/sched_pending.png"
-              alt="billboard"
-              className="schedule-img"
-            />
+          <h3 className ="schedule-title">SCHEDULE</h3>
+          <h2 className="schedule1-title">The schedule is being</h2>
+          <h2 className ="crafted-title">ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
+          <h3 className ="subject-title">*subject to change as more details arrive :) </h3>
         </div>
       </section>
-      <section id="section-faq">
-        <h2>frequently asked questions</h2>
 
-        <p>
-          <strong>
-            So I've heard of a hackathon, but what's a make-a-thon?
-          </strong>
-        </p>
-        <p>
-          A make-a-thon is a creativity-driven event where teams make their
-          ideas into reality with resources, materials, and support from
-          HexLabs!
-        </p>
+        <section id="section-faq">
+          <h2 className ="faq-title">FAQ</h2>
 
-        <p>
-          <strong>Can I attend?</strong>
-        </p>
-        <p>
-          Anyone who is a Georgia Tech student, or is 18 and above at any
-          Georgia university can attend! With beginner-friendly workshops, fun
-          and relaxing mini-events and great vibes, students from any background
-          can come and enjoy!
-        </p>
+          <p>
+            <strong>
+              So I've heard of a hackathon, but what's a make-a-thon?
+            </strong>
+          </p>
+          <p>
+            A make-a-thon is a creativity-driven event where teams make their
+            ideas into reality with resources, materials, and support from
+            HexLabs!
+          </p>
 
-        <p>
-          <strong>How much will this cost?</strong>
-        </p>
-        <p>
-          Horizons is completely free! We will provide the food, swag, and
-          resources you need so you can focus on your most awesome creation.
-        </p>
+          <p>
+            <strong>Can I attend?</strong>
+          </p>
+          <p>
+            Anyone who is a Georgia Tech student, or is 18 and above at any
+            Georgia university can attend! With beginner-friendly workshops, fun
+            and relaxing mini-events and great vibes, students from any background
+            can come and enjoy!
+          </p>
 
-        <p><strong>Where can I register?</strong></p>
-                <p>
-                Registration is open <a href="https://registration.hexlabs.org/">here</a> and will close for
-                participants on March 6th, 2023 at 11:59pm
-                </p>
-        <p>
-          <strong>What should I bring?</strong>
-        </p>
-        <p>
-          We request that you bring yourself, your laptop, and your student ID!
-          If you are not a Georgia Tech student you will also need to bring a
-          government ID and student ID. Feel free to bring anything else (art
-          supplies, tools, etc...) that you think would be helpful.
-        </p>
+          <p>
+            <strong>How much will this cost?</strong>
+          </p>
+          <p>
+            Horizons is completely free! We will provide the food, swag, and
+            resources you need so you can focus on your most awesome creation.
+          </p>
 
-        <p>
-          <strong>Where is Horizons?</strong>
-        </p>
-        <p>
-          We'll be waiting for you at the East Architecture Building, aka,
-          <a href="https://goo.gl/maps/m4GE2RuCWy317RAw9">
-            245 4th St NW, Atlanta, GA 30313
-          </a>
-        </p>
+          <p><strong>Where can I register?</strong></p>
+                  <p>
+                  Registration is <a style={{color: 'white'}} href="https://registration.hexlabs.org/">open</a> and will close for {/* ??? remove style here */}
+                  participants on Friday, March 1 2024 at 11:59pm
+                  </p>
+          <p>
+            <strong>What should I bring?</strong>
+          </p>
+          <p>
+            We request that you bring yourself, your laptop, and your student ID!
+            If you are not a Georgia Tech student you will also need to bring a
+            government ID. Feel free to bring anything else (art
+            supplies, tools, etc...) that you think would be helpful.
+          </p>
 
-        <p>
-          <strong>Will there be any makerspaces open during the event?</strong>
-        </p>
-        <p>
-          We are currently in discussions of partnering with The Hive and the
-          Invention Studio to offer spaces, tools, and mentorship during the
-          event...
-        </p>
+          <p>
+            <strong>Where is Horizons?</strong>
+          </p>
+          <p>
+            We'll be waiting for you at the Instructional Center, aka,
+            <a  style={{color: 'white'}} href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">Link</a>
+              759 Ferst Dr. NW, Atlanta, GA 30318 {/* ??? remove style here */}
+          </p>
 
-        <p>
-          <strong>How long is the event?</strong>
-        </p>
-        <p>
-          Two days! Day 1 (Saturday March 11) will start at 10:00 AM and continue
-          onto day 2 (Sunday, March 12) and finish at 4:00 PM.
-        </p>
+          <p>
+            <strong>Will there be any makerspaces open during the event?</strong>
+          </p>
+          <p>
+            We are currently in discussions of partnering with The Hive and the
+            Invention Studio to offer spaces, tools, and mentorship during the
+            event...
+          </p>
 
-        <p>
-          <strong>What resources will be there?</strong>
-        </p>
-        <p>
-          We'll be providing lots of arts supplies, hardware, and other cool
-          supplies. A full list of available supplies and services is coming
-          soon. Feel free to tell us what you want to see at the event in your
-          application.
-        </p>
+          <p>
+            <strong>How long is the event?</strong>
+          </p>
+          <p>
+            Two days! Day 1 (Saturday March 9) will start at 10am;
+            Day 2 (Sunday, March 10) will finish at 1:30pm.
+          </p>
 
-        <p>
-          <strong>What size can teams be?</strong>
-        </p>
-        <p>
-          The team can be up to 4 people in size! Let your friends know to
-          register ASAP.
-        </p>
+          <p>
+            <strong>What resources will be there?</strong>
+          </p>
+          <p>
+            We'll be providing lots of arts supplies, hardware, and other cool
+            supplies. A full list of available supplies and services is coming
+            soon. Feel free to tell us what you want to see at the event in your
+            application.
+          </p>
 
-        <p>
-          <strong>My friends are out of town! How do I find a team?</strong>
-        </p>
-        <p>
-          We will have a mixer at the start of the event to help you find a
-          team, but if you prefer going solo, we’re here by your side too!
-        </p>
+          <p>
+            <strong>What size can teams be?</strong>
+          </p>
+          <p>
+            The team can be up to 4 people in size! Let your friends know to
+            register ASAP.
+          </p>
+
+          <p>
+            <strong>My friends are out of town! How do I find a team?</strong>
+          </p>
+          <p>
+            We will have a mixer at the start of the event to help you find a
+            team, but if you prefer going solo, we’re here by your side too!
+          </p>
 
         <p>
           <strong>Any other questions?</strong>
         </p>
         <p>
           Email us at{" "}
-          <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>.
+          <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>. {/* ??? need white color style */}
         </p>
       </section>
       <section id="section-express">
         <div className="express-container">
-          <h2>express yourself!</h2>
+          <h2>express yourself!</h2> {/* ??? need express-title className? */}
           <div className="express-container-paragraph">
             <div>
               <p>
@@ -228,15 +202,9 @@ function MainPage() {
               </p>
               <p>At Horizons, we challenge you to do just that!</p>
             </div>
-            <img
-              src="/img/macaron.png"
-              alt="macarons"
-              className="paragraph-img"
-            />
           </div>
         </div>
         <div className="express-container-quote">
-          <img src="/img/croissant.png" alt="croissant" className="quote-img" />
           <div>
             <p>
               “The art challenges the technology, and the technology inspires
@@ -254,24 +222,24 @@ function MainPage() {
           <p className="footer-2">With 💜 from the HexLabs team</p>
         </div>
 
-        <div className="icon-container">
-          <a href="https://www.instagram.com/thehexlabs/">
-            <img src="/icon/insta.svg" />
-          </a>
-          <a href="https://www.facebook.com/TheHexLabs">
-            <img src="/icon/fb.svg" />
-          </a>
-          <a href="https://twitter.com/TheHexLabs">
-            <img src="/icon/twitter.svg" />
-          </a>
-          <a href="https://github.com/HackGT">
-            <img src="/icon/github.svg" />
-          </a>
-          <a href="https://hexlabs.org/">
-            <img src="/icon/web.svg" />
-          </a>
-        </div>
-      </footer>
+            <div className="icon-container">
+              <a href="https://www.instagram.com/thehexlabs/">
+                <img src="/icon/insta.svg" />
+              </a>
+              <a href="https://www.facebook.com/TheHexLabs">
+                <img src="/icon/fb.svg" />
+              </a>
+              <a href="https://twitter.com/TheHexLabs">
+                <img src="/icon/twitter.svg" />
+              </a>
+              <a href="https://github.com/HackGT">
+                <img src="/icon/github.svg" />
+              </a>
+              <a href="https://hexlabs.org/">
+                <img src="/icon/web.svg" />
+              </a>
+            </div>
+          </footer>
     </body>
   );
 }
