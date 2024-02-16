@@ -9,94 +9,84 @@
 //
 
 #section-hero {
-  background-image: url("../public/img/bg/heroBG.png");
+  background-image: url("../public/img/bg/bg.png");
   background-size: cover;
-  width: auto;
   height: auto;
-  padding: $m48 $m16;
-  color: #000000;
+  padding-top: 0%;
+  padding-bottom: 20%;
+  color: #ffffff;
   display: flex;
   text-align: center;
 
+  .hero-subtitle {
+    font-family: "Josefin Sans Bold";
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 10px;
+  }
+
   .hero-title {
     font-family: "celestialFree";
-    font-weight: 400;
-    font-size: 90px;
-    margin-bottom: 5%;
-    margin-top: 5%;
-  }
-
-  .about-title{
-    font-family: "celestialFree";
-    font-weight: 400;
-    font-size: 90px;
-  }
-
-  .track-title{
-    font-family: "celestialFree";
-    font-weight: 400;
-    font-size: 90px;
-  }
-
-  .physical-title{
-    font-family: "celestialFree";
-    font-weight: 400;
-    font-size: 90px;
-  }
-
-  .faq-title{
-    font-family: "celestialFree";
-    font-weight: 400;
-    font-size: 90px;
-  }
-
-  .hero-subtitle {
-    font-family: "corbelBold";
+    margin-top: 50%;
     margin-bottom: 10%;
+    padding-top: 70%;
+    font-size: 90px;
+    font-weight: 500;
   }
 
   .hero-button {
     display: inline-block;
+    outline-style: none;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    border-radius: 15px;
-    background-color: #8eaded;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #7f6ea0, 0 0 82px #7f6ea0,0 0 92px #7f6ea0;
     color: #ffffff;
     padding: 2% $m64;
     transition: all 0.2s ease;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+  }
+
+  .hero-button.focus{
+    outline-style: none;
   }
 
   .hero-button:hover {
     transform: scale(1.1);
+    outline-style: none;
   }
 }
 
+#gradient {
+  background-image: linear-gradient(#383062, #281D36);
+  background-size: cover;
+  padding-bottom: 500px;
+
+}
 
 #section-about {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background-image: url("../public/img/bg/aboutBG.png");
-  background-size: cover;
-  background-color: #ffcbb9;
-  padding: $m192 $m128;
-  color: $black;
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
+  text-align: center;
+  color: #ffffff;
+
+  .about-title {
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
 
   h1 {
     margin-bottom: $m24;
   }
 
   p {
-    margin-bottom: $m24;
-  }
-
-  .about-container {
-    width: $w7;
-    margin-right: calc($w1 + 2 * $m24);
+    font-size: 20px;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
   }
 
   .about-img {
@@ -104,20 +94,42 @@
     height: auto;
   }
 
-  .registration-button {
-    width: auto;
-    height: auto;
-    padding-left: 0px;
-    background-color: #8eaded;
-  }
 }
 
 #section-registration {
-  background-image: url("../public/img/bg/tracksBG.png");
-  background-size: cover;
-  background-color: #d1c7e8;
+  color: #ffffff;
   padding: $m192 $m128;
-  color: #000000;
+  text-align: center;
+  margin-top: -50px;
+
+  .track-title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 30px;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    text-align: column;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: 55px;
+    //margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .descrip{
+    text-align: left;
+    margin-left: 700px;
+    margin-top: -60px;
+  }
 
   h1 {
     margin-bottom: $m32;
@@ -150,20 +162,63 @@
     text-align: center;
   }
 
-  .registration-container2 {
-    text-align: center;
+  .registration-button {
+    display: inline-block;
+    outline-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #7f6ea0, 0 0 82px #7f6ea0,0 0 92px #7f6ea0;
+    color: #ffffff;
+    padding: 2% $m64;
+    transition: all 0.2s ease;
+    margin-bottom: 10%;
   }
 }
 
 #section-schedule {
-  background-image: url("../public/img/bg/schedBG.png");
-  background-size: cover;
-  background-color: #8EADED;
-  color: $black;
-  padding: $m192 $m128;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -150px;
+
+  .schedule-title {
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .schedule1-title{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 4%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .crafted-title{
+    color: #ffffff;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .subject-title{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  } 
+  }
 
   h2 {
     color: black;
@@ -196,7 +251,7 @@
     transform: scale(1.1);
   }
 
-  .schedule-container {
+  /*.schedule-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -208,7 +263,7 @@
 
   .schedule-img {
     width: $w3;
-  }
+  }*/
 
   .schedule-img-background {
     position: absolute;
@@ -217,19 +272,32 @@
     left: 50%;
     transform: translate(-50%, -52%);
   }
+
+#bg2 {
+  background-image: url("../public/img/bg/bg2_.png");
+  background-size: cover;
 }
 
 #section-faq {
-  background-image: url("../public/img/bg/faqBG.png");
-  background-size: cover;
-  background-color: #b4ce85;
-  color: $black;
+  color: #ffffff;
   padding: 0 $m128;
   padding-bottom: $m192;
   padding-top: $m128;
   display: flex;
   flex-direction: column;
   width: 100vw;
+  margin-top: -50px;
+
+  .faq-title{
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 0%;
+    //margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
 
   h1 {
     color: $black;
@@ -251,22 +319,21 @@
 }
 
 #section-express {
-  background-image: url("../public/img/bg/expressBG.png");
-  background-size: cover;
-  background-color: #ffce7a;
-  color: $black;
+  color: #ffffff;
   padding: $m192 $m128;
   display: flex;
   flex-direction: column;
   width: 100vw;
+  margin-top: -180px;
 
   h1 {
     margin-bottom: $m24;
     color: $black;
   }
 
-  p {
-    margin-bottom: $m24;
+  .express-title {
+    color: #ffffff;
+    margin-top: -60px;
   }
 
   .express-container {
@@ -279,6 +346,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: -500px;
 
     p {
       width: $w7;
@@ -291,6 +359,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right: -100px;
+    margin-top: -70px;
 
     p {
       width: $w7;
@@ -471,7 +541,7 @@
     }
   }
 
-  #section-schedule {
+ #section-schedule {
     flex-direction: column;
     padding: $m96Mobile $m16Mobile;
     align-items: flex-start;
@@ -512,45 +582,47 @@
     padding-top: 0;
 
     h2 {
+      color: #ffffff;
       text-align: center;
       font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
     h3 {
+      color: #ffffff;
       text-align: center;
       font-size: $h3Mobile;
     }
 
     p {
+      color: #ffffff;
       width: $w4Mobile;
       font-size: $pMobile;
       margin-bottom: $m16Mobile;
     }
   }
 
+  
+  
   #section-express {
     padding: $m96Mobile $m16Mobile;
+    color: #ffffff;
 
     .express-container {
       width: $w4Mobile;
     }
 
     h2 {
+      color: #ffffff;
       text-align: center;
       font-size: $h2Mobile;
       margin-bottom: $m16Mobile;
     }
 
     h3 {
+      color: #ffffff;
       text-align: center;
       font-size: $h3Mobile;
-    }
-
-    p {
-      width: $w4Mobile;
-      font-size: $pMobile;
-      margin-bottom: $m16Mobile;
     }
 
     img {
@@ -565,6 +637,7 @@
       width: $w4Mobile;
 
       p {
+        color: #ffffff;
         width: 100%;
         text-align: center;
       }

@@ -45,6 +45,11 @@
   src: url('JosefinSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Josefin Sans Bold';
+  src: url('JosefinSans-Bold.ttf');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -165,9 +170,7 @@ p {
 footer {
   display: flex;
   flex-direction: column;
-  background-image: url("../public/img/bg/footerBG.png");
   background-size: cover;
-  background-color: #D1A8AA;;
   color: $black;
   padding: $m192 $m128;
   text-align: center;
