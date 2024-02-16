@@ -21,7 +21,6 @@
   .hero-subtitle {
     font-family: "Josefin Sans Bold"; // ??? bold or normal?
     margin-bottom: 10%;
-    // ??? added all below
     font-size: 30px;
     font-weight: 700;
     line-height: 10px;
@@ -29,15 +28,10 @@
 
   .hero-title {
     font-family: "celestialFree";
-    margin-top: 50%;
-    margin-bottom: 10%;
-    padding-top: 70%;
     font-size: 90px;
-    font-weight: 500;
-    // ??? prev settings
-    // font-weight: 500;
-    // margin-bottom: 0%;
-    // margin-top: 5%;
+    font-weight: 400;
+    margin-bottom: 0%;
+    margin-top: 30%;
   }
 
   .hero-button {
@@ -50,7 +44,7 @@
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     padding: 2% $m64;
     transition: all 0.2s ease;
-    margin-bottom: 10%; // ??? or old 20%
+    margin-bottom: 20%;
   }
 
   .hero-button:hover {
@@ -58,12 +52,11 @@
   }
 }
 
-#gradient {
-  background-image: linear-gradient(#383062, #281D36);
-  background-size: cover;
-  padding-bottom: 500px;
-
-}
+// #gradient {
+//   background-image: linear-gradient(#383062, #281D36);
+//   background-size: cover;
+//   padding-bottom: 500px;
+// }
 
 #section-about {
   display: flex;
@@ -79,18 +72,18 @@
   width: 100vw;
 
   // ??? new settings below
-  // text-align: center;
+  text-align: center;
   // color: #ffffff;
 
-  // .about-title {
-  //   color: #ffffff;
-  //   font-family: "celestialFree";
-  //   font-weight: 400;
-  //   font-size: 80px;
-  //   margin-top: 0%;
-  //   margin-bottom: calc($m16 / 2);
-  //   width: $w12;
-  // }
+  .about-title {
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
 
   h1 {
     margin-bottom: $m24;
@@ -99,15 +92,13 @@
   p {
     font-size: 20px;
     margin-bottom: calc($m16 / 2);
+    margin-top: 70px;
     width: $w12;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
     // ??? only setting before
     // margin-bottom: $m24;
-  }
-
-  // remove or not?
-  .about-container {
-    width: $w7;
-    margin-right: calc($w1 + 2 * $m24);
   }
 
   .about-img {
@@ -132,14 +123,13 @@
   color: white;
   // ??? added all below
   text-align: center;
-  margin-top: -50px;
 
-  .track-title{
+  .track-title {
     color: #ffffff;
     font-family: "celestialFree";
     font-weight: 400;
-    font-size: 80px;
-    padding-top: 30px;
+    font-size: 40px;
+    margin-top: 0%;
     margin-bottom: calc($m16 / 2);
     width: $w12;
   }
@@ -149,9 +139,9 @@
     font-family: "celestialFree";
     text-align: column;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 30px;
     text-align: left;
-    margin-left: -10px;
+    margin-left: 5%;
     margin-top: 55px;
     //margin-bottom: calc($m16 / 2);
     width: $w12;
@@ -159,7 +149,7 @@
 
   .descrip{
     text-align: left;
-    margin-left: 700px;
+    margin-left: 30%;
     margin-top: -60px;
   }
 
@@ -197,19 +187,6 @@
   .registration-container2 {
     text-align: center;
   }
-
-  // ???
-  // .registration-button {
-  //   display: inline-block;
-  //   outline-style: none;
-  //   font-family: "Josefin Sans", sans-serif;
-  //   font-size: 30px;
-  //   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #7f6ea0, 0 0 82px #7f6ea0,0 0 92px #7f6ea0;
-  //   color: #ffffff;
-  //   padding: 2% $m64;
-  //   transition: all 0.2s ease;
-  //   margin-bottom: 10%;
-  // }
 }
 
 #section-schedule {
@@ -223,47 +200,47 @@
   align-items: flex-start;
   
   // ??? add all below
-  // text-align: center;
+  text-align: center;
   // color: #ffffff;
   // margin-top: -150px;
 
-  // .schedule-title {
-  //   color: #ffffff;
-  //   font-family: "celestialFree";
-  //   font-weight: 400;
-  //   font-size: 60px;
-  //   margin-top: 50px;
-  //   margin-bottom: calc($m16 / 2);
-  //   width: $w12;
-  // }
+  .schedule-title {
+    color: #ffffff;
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
 
-  // .schedule1-title{
-  //   color: #ffffff;
-  //   font-weight: 400;
-  //   font-size: 36px;
-  //   margin-top: 4%;
-  //   margin-bottom: calc($m16 / 2);
-  //   width: $w12;
-  // }
+  .schedule1-title{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 10%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
 
-  // .crafted-title{
-  //   color: #ffffff;
-  //   color: #ffffff;
-  //   font-weight: 400;
-  //   font-size: 36px;
-  //   margin-top: 0%;
-  //   margin-bottom: calc($m16 / 2);
-  //   width: $w12;
-  // }
+  .crafted-title{
+    color: #ffffff;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
 
-  // .subject-title{
-  //   color: #ffffff;
-  //   font-weight: 400;
-  //   font-size: 15px;
-  //   margin-top: 0%;
-  //   margin-bottom: calc($m16 / 2);
-  //   width: $w12;
-  // } 
+  .subject-title{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  } 
   // }
 
   h2 {
@@ -295,19 +272,19 @@
     transform: scale(1.1);
   }
   // ??? remove both below
-  .schedule-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: $w7;
-    text-align: center;
-  }
+  // .schedule-container {
+  //   position: relative;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: center;
+  //   width: $w7;
+  //   text-align: center;
+  // }
 
-  .schedule-img {
-    width: $w3;
-  }
+  // .schedule-img {
+  //   width: $w3;
+  // }
 
   .schedule-img-background {
     position: absolute;
@@ -335,10 +312,11 @@
     color: #ffffff;
     font-family: "celestialFree";
     font-weight: 400;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 0%;
     //margin-bottom: calc($m16 / 2);
     width: $w12;
+    text-align: center;
   }
 
 

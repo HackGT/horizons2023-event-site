@@ -22,7 +22,7 @@ function MainPage() {
 
       <section id="section-about">
         <div className="about-container">
-          <h2 className ="about-title">About</h2>
+          <h2 className ="about-title">ABOUT</h2>
           <p>
             HexLabs is excited to welcome you back to 🎨 Horizons: the 24-hour
             arts + tech make-a-thon! All university students in Georgia are
@@ -39,15 +39,15 @@ function MainPage() {
       <section id="section-registration">
         <div className="registration-flex">
           <div className="registration-container">
-            <h2 className="track-title">Tracks</h2>
-            <h3 className ="title">Physical</h3>
+            <h2 className="track-title">TRACKS</h2>
+            <h3 className ="title">PHYSICAL</h3>
             <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
               Physical Track, participants can have a very hands-on experience by
               designing and making unique pieces of art in any physical form!
             </p>
-            <h3 className ="title">Digital</h3>
+            <h3 className ="title">DIGITAL</h3>
             <p className="descrip">
               Enter the digital track if you are interested in projects that allow
               users to interact with diverse forms of art through any type of
@@ -64,7 +64,7 @@ function MainPage() {
           <p>
             Registration is FREE and open on Friday, February 16th at horizons.hexlabs.org and closes on Friday, March 1st
           </p>
-          <a className ="registration-button" href="https://registration.hexlabs.org/">Register Here</a> {/* ??? need classname? */}
+          <a href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
 
@@ -111,7 +111,7 @@ function MainPage() {
 
           <p><strong>Where can I register?</strong></p>
                   <p>
-                  Registration is <a style={{color: 'white'}} href="https://registration.hexlabs.org/">open</a> and will close for {/* ??? remove style here */}
+                  Registration is <a href="https://registration.hexlabs.org/">open</a> and will close for
                   participants on Friday, March 1 2024 at 11:59pm
                   </p>
           <p>
@@ -129,8 +129,8 @@ function MainPage() {
           </p>
           <p>
             We'll be waiting for you at the Instructional Center, aka,
-            <a  style={{color: 'white'}} href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">Link</a>
-              759 Ferst Dr. NW, Atlanta, GA 30318 {/* ??? remove style here */}
+            <a href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">Link</a>
+              759 Ferst Dr. NW, Atlanta, GA 30318
           </p>
 
           <p>
@@ -181,7 +181,7 @@ function MainPage() {
         </p>
         <p>
           Email us at{" "}
-          <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>. {/* ??? need white color style */}
+          <a href="mailto:hello@hexlabs.org">hello@hexlabs.org 💜</a>.
         </p>
       </section>
       <section id="section-express">
