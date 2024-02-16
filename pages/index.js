@@ -11,7 +11,7 @@ function MainPage() {
             <h3>east architecture building</h3>
             <h3>march 11th-12th</h3>
           </div>
-          <a className="hero-button" href="https://registration.hexlabs.org/">register now!</a>
+          <a className="hero-button" href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
       <section id="section-about">
@@ -82,7 +82,7 @@ function MainPage() {
           <p>
             Registration is FREE and open now! It closes March 6th.
           </p>
-          <a href="https://registration.hexlabs.org/">register now!</a>
+          <a href="https://registration.hexlabs.org/">Register Here</a>
         </div>
       </section>
 
@@ -247,10 +247,12 @@ function MainPage() {
         </div>
       </section>
       <footer>
-        <p>
-          <strong>We can't wait to see you expand your horizons 🌄😉!</strong>
-        </p>
-        <p>With 💜 from the HexLabs team</p>
+        <div className="footer-text">
+          <p className="footer-1">
+            <strong>We can't wait to see you expand your horizons 🌄😉!</strong>
+          </p>
+          <p className="footer-2">With 💜 from the HexLabs team</p>
+        </div>
 
         <div className="icon-container">
           <a href="https://www.instagram.com/thehexlabs/">
