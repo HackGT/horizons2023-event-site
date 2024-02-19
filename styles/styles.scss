@@ -19,16 +19,16 @@
   text-align: center;
 
   .hero-subtitle {
-    font-family: "Josefin Sans Bold"; // ??? bold or normal?
+    font-family: "Josefin Sans Bold";
     margin-bottom: 10%;
-    font-size: 30px;
+    font-size: $h3;
     font-weight: 700;
     line-height: 10px;
   }
 
-  .hero-title {
+  h1 {
     font-family: "celestialFree";
-    font-size: 90px;
+    font-size: $h1;
     font-weight: 400;
     margin-bottom: 0%;
     margin-top: 30%;
@@ -37,9 +37,8 @@
   .hero-button {
     display: inline-block;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: $h3;
     font-weight: 700;
-    border-radius: 15px;
     color: white;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     padding: 2% $m64;
@@ -62,8 +61,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  background-image: url("../public/img/bg/aboutBG.png");
-  background-size: cover;
+  // background-image: url("../public/img/bg/aboutBG.png");
+  // background-size: cover;
   background-color: #372f61;
   padding: $m192 $m128;
   color: white;
@@ -79,7 +78,7 @@
     color: #ffffff;
     font-family: "celestialFree";
     font-weight: 400;
-    font-size: 40px;
+    font-size: $h2;
     margin-top: 0%;
     margin-bottom: calc($m16 / 2);
     width: $w12;
@@ -116,15 +115,15 @@
 }
 
 #section-registration {
-  background-image: url("../public/img/bg/tracksBG.png");
-  background-size: cover;
-  background-color: #372f61;
+  // background-image: url("../public/img/bg/tracksBG.png");
+  // background-size: cover;
+  // background-color: #372f61;
+  background-image: linear-gradient(#383062, #30274d);
   padding: $m192 $m128;
   color: white;
   // ??? added all below
-  text-align: center;
 
-  .track-title {
+  h2 {
     color: #ffffff;
     font-family: "celestialFree";
     font-weight: 400;
@@ -134,12 +133,12 @@
     width: $w12;
   }
 
-  .title{
+  h3 {
     color: #ffffff;
     font-family: "celestialFree";
     text-align: column;
     font-weight: 400;
-    font-size: 30px;
+    font-size: $h3;
     text-align: left;
     margin-left: 5%;
     margin-top: 55px;
@@ -147,7 +146,7 @@
     width: $w12;
   }
 
-  .descrip{
+  .descrip {
     text-align: left;
     margin-left: 30%;
     margin-top: -60px;
@@ -166,12 +165,10 @@
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    border-radius: 15px;
     color: white;
     text-shadow: 0 0 20px white, 0 0 30px white;
     padding: 2% $m64;
     transition: all 0.2s ease;
-    margin-bottom: 20%;
   }
 
   a:hover {
@@ -187,12 +184,14 @@
   .registration-container2 {
     text-align: center;
   }
+
 }
 
 #section-schedule {
-  background-image: url("../public/img/bg/schedBG.png");
-  background-size: cover;
-  background-color: #281d36;
+  // background-image: url("../public/img/bg/schedBG.png");
+  // background-size: cover;
+  // background-color: #281d36;
+  background-image: linear-gradient(#30274d, #281D36);
   color: white;
   padding: $m192 $m128;
   display: flex;
@@ -281,18 +280,6 @@
   //   width: $w7;
   //   text-align: center;
   // }
-
-  // .schedule-img {
-  //   width: $w3;
-  // }
-
-  .schedule-img-background {
-    position: absolute;
-    width: $w7;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -52%);
-  }
 }
 
 #section-faq {
@@ -350,33 +337,17 @@
   width: 100vw;
   // margin-top: -180px; // ??? need to be added?
 
-  h1 {
-    margin-bottom: $m24;
-    color: $black;
-  }
-
-  // ??? add or not?
-  .express-title {
-    color: #ffffff;
-    margin-top: -60px;
-  }
-
-  // ??? remove or keep
-  p {
-    margin-bottom: $m24;
-  }
-
   .express-container {
     width: $w12;
     margin-bottom: $m48;
+    h2 {
+      margin-top: 5vw;
+    }
   }
 
   .express-container-paragraph {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    // margin-left: -500px; ??? add or not?
+    width: $w12;
+    margin-bottom: $m24;
 
     p {
       width: $w7;
@@ -385,14 +356,6 @@
   }
 
   .express-container-quote {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    // ??? add or not?
-    // margin-right: -100px;
-    // margin-top: -70px;
-
     p {
       width: $w7;
       font-style: italic;
@@ -407,37 +370,37 @@
   }
 }
 
-@media (max-width: 1040px) {
-  #section-schedule {
-    .schedule-container {
-      width: $w7;
-      margin: 0;
-      margin-right: $w1 + $m24 * 2;
-      align-self: center;
-      text-align: start;
-    }
+// @media (max-width: 1040px) {
+//   #section-schedule {
+//     .schedule-container {
+//       width: $w7;
+//       margin: 0;
+//       margin-right: $w1 + $m24 * 2;
+//       align-self: center;
+//       text-align: start;
+//     }
 
-    p {
-      width: $w7;
-    }
+//     p {
+//       width: $w7;
+//     }
 
-    h1 {
-      width: $w7;
-    }
+//     h1 {
+//       width: $w7;
+//     }
 
-    .schedule-img {
-      width: $w4;
-      margin: 0;
-      margin-top: $m48;
-      padding: 0;
-      align-self: center;
-    }
+//     .schedule-img {
+//       width: $w4;
+//       margin: 0;
+//       margin-top: $m48;
+//       padding: 0;
+//       align-self: center;
+//     }
 
-    .schedule-img-background {
-      display: none;
-    }
-  }
-}
+//     .schedule-img-background {
+//       display: none;
+//     }
+//   }
+// }
 
 @media (max-width: 1024px) {
   #section-hero {
@@ -485,7 +448,7 @@
     .hero-button {
       width: $w2Mobile;
       text-align: center;
-      font-size: 20px; // ??? remove or keep?
+      font-size: $h3Mobile;
     }
   }
 
@@ -526,6 +489,10 @@
 
     .registration-container {
       margin-bottom: $m32Mobile;
+      p {
+        margin-left: 0%;
+        text-align: center;
+      }
     }
 
     .registration-flex {
@@ -551,10 +518,9 @@
     p {
       width: $w4Mobile;
       font-size: $pMobile;
-      margin-bottom: $m16Mobile;
+      margin-top: 0%;
     }
     
-
     a {
       display: inline-block;
       font-size: $pMobile;
@@ -567,6 +533,10 @@
       margin: 0;
       margin-bottom: $m16Mobile;
       align-self: center;
+    }
+
+    .descrip {
+      margin-top: $m12Mobile;
     }
   }
 

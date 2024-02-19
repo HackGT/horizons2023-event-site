@@ -38,15 +38,15 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       <section id="section-registration">
         <div className="registration-flex">
           <div className="registration-container">
-            <h2 className="track-title">TRACKS</h2>
-            <h3 className ="title">PHYSICAL</h3>
+            <h2>TRACKS</h2>
+            <h3>PHYSICAL</h3>
             <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
               Physical Track, participants can have a very hands-on experience by
               designing and making unique pieces of art in any physical form!
             </p>
-            <h3 className ="title">DIGITAL</h3>
+            <h3>DIGITAL</h3>
             <p className="descrip">
               Enter the digital track if you are interested in projects that allow
               users to interact with diverse forms of art through any type of
@@ -185,7 +185,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
       <section id="section-express">
         <div className="express-container">
-          <h2>express yourself!</h2> {/* ??? need express-title className? */}
+          <h2>express yourself!</h2>
           <div className="express-container-paragraph">
             <div>
               <p>
