@@ -24,14 +24,13 @@ function MainPage() {
         <div className="about-container">
           <h2 className ="about-title">ABOUT</h2>
           <p>
-            HexLabs is excited to welcome you back to 🎨 Horizons: the 24-hour
-            arts + tech make-a-thon! All university students in Georgia are
-            welcome to join and express their creativity free from the
-            constraints of major, skillset, or experience! Whether you enjoy
-            sharing your love for visual art 🖼, telling genius storylines 📚,
-            showcasing your newest beats 🎶, mastering up lines of code 👾, or
-            engineering incredible creations 🧩, your intrinsic connection to
-            creativity is what makes Horizons THE event for you!
+          HexLabs is excited to welcome you back to 🌠 Horizons: the 24-hour design + tech make-a-thon!  On March 9 and 10th, all designers, coders, entrepreneurs, artists, and innovators of any major are invited to light up the Instructional Center with their brilliant ideas for a two-day, celestial-themed event! 🌌🌃
+
+Come join us to express your creativity and craft stellar design-tech projects while attending workshops and mini-events, securing free food and swag, and basking under the glow of innovation. 🌠✨ At the journey's end, we'll host an expo where you can display your cosmic creation and submit it to one of our tracks (listed below) to win a grand prize that's out of this world!! 🌟🏆
+
+Embrace the night sky's wonders and let your imagination soar like a comet across the universe. 🌙💫 Whether you're inspired by the analytical rigor of engineering 🔧, the creative narratives of the arts 🎨, or the insightful inquiries of the sciences 🔬, there's a place for you here. Don't miss this opportunity to connect with fellow space explorers from diverse academic disciplines and launch your ideas into orbit. 🪁
+
+Prepare for a celestial odyssey of creativity and discovery. Let's reach for the stars together! 💙💛💜
           </p>
         </div>
       </section>
