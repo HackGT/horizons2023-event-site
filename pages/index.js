@@ -22,7 +22,7 @@ function MainPage() {
 
       <section id="section-about">
         <div className="about-container">
-          <h2 className ="about-title">ABOUT</h2>
+          <h2 className ="about-title"><img src="/img/pixel_about_stars.png" /></h2>
           <p>
           HexLabs is excited to welcome you back to 🌠 Horizons: the 24-hour design + tech make-a-thon!  On March 9 and 10th, all designers, coders, entrepreneurs, artists, and innovators of any major are invited to light up the Instructional Center with their brilliant ideas for a two-day, celestial-themed event! 🌌🌃
 
@@ -38,7 +38,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       <section id="section-registration">
         <div className="registration-flex">
           <div className="registration-container">
-            <h2>TRACKS</h2>
+            <h2><img src="/img/pixel_track_stars.png" /></h2>
             <h3>PHYSICAL</h3>
             <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
@@ -69,7 +69,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
 
       <section id="section-schedule">
         <div className="schedule-container">
-          <h3 className ="schedule-title">SCHEDULE</h3>
+          <h3 className ="schedule-title"><img src="/img/pixel_schedule_stars.png" /></h3>
           <h2 className="schedule1-title">The schedule is being</h2>
           <h2 className ="crafted-title">ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
           <h3 className ="subject-title">*subject to change as more details arrive :) </h3>
@@ -77,7 +77,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
 
         <section id="section-faq">
-          <h2 className ="faq-title">FAQ</h2>
+          <h2 className ="faq-title"><img src="/img/pixel_faq_stars.png" /></h2>
 
           <p>
             <strong>
