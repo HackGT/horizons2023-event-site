@@ -152,6 +152,21 @@
     margin-top: -60px;
   }
 
+  .star-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .star-group img {
+    margin: 0;
+  }
+
+  .star-group h3 {
+    margin: 0;
+  }
+
   h1 {
     margin-bottom: $m32;
   }

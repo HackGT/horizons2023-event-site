@@ -39,14 +39,20 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
         <div className="registration-flex">
           <div className="registration-container">
             <h2><img src="/img/pixel_track_stars.png" /></h2>
-            <h3>PHYSICAL</h3>
+            <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>PHYSICAL</h3>
+            </div>
             <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
               Physical Track, participants can have a very hands-on experience by
               designing and making unique pieces of art in any physical form!
             </p>
-            <h3>DIGITAL</h3>
+            <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>DIGITAL</h3>
+            </div>
             <p className="descrip">
               Enter the digital track if you are interested in projects that allow
               users to interact with diverse forms of art through any type of
