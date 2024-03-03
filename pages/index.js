@@ -192,7 +192,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
       <section id="section-express">
         <div className="express-container">
-          <h2>express yourself!</h2>
+          <h1>express yourself!</h1>
           <div className="express-container-paragraph">
             <div>
               <p>
@@ -212,6 +212,8 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
         </div>
         <div className="express-container-quote">
           <div>
+            <img src="img/pixel_hexlabs_constellation_2.png" height="300px" />
+            <img src="img/pixel_dino.png" />
             <p>
               “The art challenges the technology, and the technology inspires
               the art.”

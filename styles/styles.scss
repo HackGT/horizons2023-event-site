@@ -353,7 +353,7 @@
   color: white;
   padding: $m192 $m128;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   // margin-top: -180px; // ??? need to be added?
 
@@ -366,21 +366,25 @@
   }
 
   .express-container-paragraph {
-    width: $w12;
+    // width: $w12;
     margin-bottom: $m24;
 
     p {
-      width: $w7;
+      // width: $w7;
       font-weight: 700;
     }
   }
 
   .express-container-quote {
+    display: flex;
+    flex-direction: column;
+
     p {
-      width: $w7;
+      width: $w4;
       font-style: italic;
       text-align: end;
       font-weight: 700;
+      color: #FFE2C1;
     }
   }
 
