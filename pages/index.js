@@ -5,6 +5,7 @@ function MainPage() {
     <body>
       <section id="section-hero">
         <div className="hero-container">
+          <img src="/img/pixel_2024_crescent.png" className="hero-image"/>
           <h1 className="hero-title">HORIZONS</h1>
           <div className="hero-subtitle">
             <strong>

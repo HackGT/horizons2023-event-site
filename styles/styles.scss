@@ -49,6 +49,11 @@
   .hero-button:hover {
     transform: scale(1.1);
   }
+
+  .hero-image {
+    position: absolute;
+    right: 125px;
+  }
 }
 
 // #gradient {
@@ -425,7 +430,7 @@
     .hero-container {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       width: $w4Mobile;
       text-align: end;
       
