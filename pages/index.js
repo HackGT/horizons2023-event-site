@@ -5,6 +5,7 @@ function MainPage() {
     <body>
       <section id="section-hero">
         <div className="hero-container">
+          <img src="/img/pixel_2024_crescent.png" className="hero-image"/>
           <h1 className="hero-title">HORIZONS</h1>
           <div className="hero-subtitle">
             <strong>
@@ -22,7 +23,7 @@ function MainPage() {
 
       <section id="section-about">
         <div className="about-container">
-          <h2 className ="about-title">ABOUT</h2>
+          <h2 className ="about-title"><img src="/img/pixel_about_stars.png" /></h2>
           <p>
           HexLabs is excited to welcome you back to 🌠 Horizons: the 24-hour design + tech make-a-thon!  On March 9 and 10th, all designers, coders, entrepreneurs, artists, and innovators of any major are invited to light up the Instructional Center with their brilliant ideas for a two-day, celestial-themed event! 🌌🌃
 
@@ -38,15 +39,21 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       <section id="section-registration">
         <div className="registration-flex">
           <div className="registration-container">
-            <h2>TRACKS</h2>
-            <h3>PHYSICAL</h3>
+            <h2><img src="/img/pixel_track_stars.png" /></h2>
+            <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>PHYSICAL</h3>
+            </div>
             <p className="descrip">
               Join this track to create tangible artistic projects, ranging from
               paintings and sculptures to fashion items and wearable tech. In the
               Physical Track, participants can have a very hands-on experience by
               designing and making unique pieces of art in any physical form!
             </p>
-            <h3>DIGITAL</h3>
+            <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>DIGITAL</h3>
+            </div>
             <p className="descrip">
               Enter the digital track if you are interested in projects that allow
               users to interact with diverse forms of art through any type of
@@ -69,7 +76,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
 
       <section id="section-schedule">
         <div className="schedule-container">
-          <h3 className ="schedule-title">SCHEDULE</h3>
+          <h3 className ="schedule-title"><img src="/img/pixel_schedule_stars.png" /></h3>
           <h2 className="schedule1-title">The schedule is being</h2>
           <h2 className ="crafted-title">ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
           <h3 className ="subject-title">*subject to change as more details arrive :) </h3>
@@ -77,7 +84,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
 
         <section id="section-faq">
-          <h2 className ="faq-title">FAQ</h2>
+          <h2 className ="faq-title"><img src="/img/pixel_faq_stars.png" /></h2>
 
           <p>
             <strong>
@@ -185,7 +192,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
       <section id="section-express">
         <div className="express-container">
-          <h2>express yourself!</h2>
+          <h1>express yourself!</h1>
           <div className="express-container-paragraph">
             <div>
               <p>
@@ -205,6 +212,8 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
         </div>
         <div className="express-container-quote">
           <div>
+            <img src="img/pixel_hexlabs_constellation_2.png" height="300px" />
+            <img src="img/pixel_dino.png" />
             <p>
               “The art challenges the technology, and the technology inspires
               the art.”

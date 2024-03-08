@@ -49,6 +49,11 @@
   .hero-button:hover {
     transform: scale(1.1);
   }
+
+  .hero-image {
+    position: absolute;
+    right: 125px;
+  }
 }
 
 // #gradient {
@@ -150,6 +155,21 @@
     text-align: left;
     margin-left: 30%;
     margin-top: -60px;
+  }
+
+  .star-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .star-group img {
+    margin: 0;
+  }
+
+  .star-group h3 {
+    margin: 0;
   }
 
   h1 {
@@ -333,7 +353,7 @@
   color: white;
   padding: $m192 $m128;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   // margin-top: -180px; // ??? need to be added?
 
@@ -346,21 +366,25 @@
   }
 
   .express-container-paragraph {
-    width: $w12;
+    // width: $w12;
     margin-bottom: $m24;
 
     p {
-      width: $w7;
+      // width: $w7;
       font-weight: 700;
     }
   }
 
   .express-container-quote {
+    display: flex;
+    flex-direction: column;
+
     p {
-      width: $w7;
+      width: $w4;
       font-style: italic;
       text-align: end;
       font-weight: 700;
+      color: #FFE2C1;
     }
   }
 
@@ -410,7 +434,7 @@
     .hero-container {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       width: $w4Mobile;
       text-align: end;
       
