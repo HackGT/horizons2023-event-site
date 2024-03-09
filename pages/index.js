@@ -65,7 +65,29 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               of building and displaying artistic creations via digital means,
               this track is for you!
             </p>
+          <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>EDUCATION</h3>
           </div>
+          <p className="descrip">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+
+          <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>MUSIC TECH</h3>
+          </div>
+          <p className="descrip">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+
+          <div className="star-group">
+              <img src="/img/pixel_track_star_group.png" height="50px"/>
+              <h3>SUSTAINABILITY</h3>
+          </div>
+          <p className="descrip">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          </div>
+
         </div>
         <div className ="registration-container2">
           <p>
