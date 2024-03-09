@@ -119,17 +119,17 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               </tr>
               <tr>
                 <td>Check In</td>
-                <td>10:00 AM - 10:30 AM</td>
+                <td>10:00 AM - 11:00 AM</td>
                 <td>IC Lobby</td>
               </tr>
               <tr>
                 <td>Opening Ceremony</td>
-                <td>10:30 AM - 11:00 AM</td>
+                <td>11:00 AM - 11:30 AM</td>
                 <td>IC 103</td>
               </tr>
               <tr>
                 <td>Hacking Starts</td>
-                <td>11:00 AM</td>
+                <td>11:30 AM</td>
                 <td>IC 205, 209, 211, 215</td>
               </tr>
               <tr>
@@ -151,17 +151,22 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               <tr>
                 <td>GT Gourd Workshop</td>
                 <td>2:00 PM - 3:00 PM</td>
-                <td>IC 111</td>
+                <td>IC 115</td>
               </tr>
               <tr>
                 <td>Figma Workshop</td>
                 <td>3:00 PM - 4:00 PM</td>
-                <td>IC 115</td>
+                <td>IC 111</td>
               </tr>
               <tr>
                 <td>Tote Bag Painting Mini Event</td>
                 <td>4:00 PM - 5:00 PM</td>
                 <td>IC 115</td>
+              </tr>
+              <tr>
+                <td>Guthman Fair</td>
+                <td>4:00 PM - 6:30 PM</td>
+                <td>Exhibition Hall</td>
               </tr>
               <tr>
                 <td>Origami Mini Event</td>
@@ -178,6 +183,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
                 <td>7:00 PM - 8:00 PM</td>
                 <td>IC 111</td>
               </tr>
+              
               <tr>
                 <td>Dinner</td>
                 <td>6:00 PM - 6:45 PM</td>
@@ -187,6 +193,11 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
                 <td>Swag Distribution</td>
                 <td>7:00 PM - 7:45 PM</td>
                 <td>IC Lobby</td>
+              </tr>
+              <tr>
+                <td>Guthman Concert</td>
+                <td>7:00 PM - 9:00 PM</td>
+                <td>Ferst Center</td>
               </tr>
               <tr>
                 <td>Midnight Snacks</td>
