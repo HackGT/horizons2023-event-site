@@ -119,12 +119,12 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               </tr>
               <tr>
                 <td>Check In</td>
-                <td>10:00 AM - 10:30 AM</td>
+                <td>10:00 AM - 11:00 AM</td>
                 <td>IC Lobby</td>
               </tr>
               <tr>
                 <td>Opening Ceremony</td>
-                <td>10:30 AM - 11:00 AM</td>
+                <td>11:00 AM - 11:30 AM</td>
                 <td>IC 103</td>
               </tr>
               <tr>
@@ -150,19 +150,19 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
 
               <tr>
                 <td>Startup Exchange Workshop</td>
-                <td>6:00 PM - 7:00 PM</td>
+                <td>5:00 PM - 6:00 PM</td>
                 <td>IC 115</td>
               </tr>
 
               <tr>
                 <td>Figma Workshop</td>
                 <td>2:00 PM - 3:00 PM</td>
-                <td>IC 115</td>
+                <td>IC 111</td>
               </tr>
               <tr>
                 <td>GT Gourd Workshop</td>
                 <td>3:00 PM - 4:00 PM</td>
-                <td>IC 111</td>
+                <td>IC 115</td>
               </tr>
               <tr>
                 <td>Tote Bag Painting Mini Event</td>
