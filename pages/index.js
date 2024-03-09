@@ -1,4 +1,5 @@
 import Link from "next/link";
+import schedule from '../styles/schedule.module.css';
 
 function MainPage() {
   return (
@@ -75,11 +76,124 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
 
       <section id="section-schedule">
-        <div className="schedule-container">
-          <h3 className ="schedule-title"><img src="/img/pixel_schedule_stars.png" /></h3>
-          <h2 className="schedule1-title">The schedule is being</h2>
-          <h2 className ="crafted-title">ﾟ｡･ * ☆ crafted up ☆ * ･ ｡ﾟ</h2>
-          <h3 className ="subject-title">*subject to change as more details arrive :) </h3>
+        <div className= {schedule['schedule-container']}>
+          <h3 className={schedule['schedule-title']}><img src="/img/pixel_schedule_stars.png" alt="Schedule Stars"/></h3>
+          <table className={schedule['schedule-table']}>
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Time</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr className={schedule['schedule-day-header']}>
+                <td colSpan="3">Saturday Schedule</td>
+              </tr>
+              <tr>
+                <td>Check In</td>
+                <td>10:00 AM - 10:30 AM</td>
+                <td>IC Lobby</td>
+              </tr>
+              <tr>
+                <td>Opening Ceremony</td>
+                <td>10:30 AM - 11:00 AM</td>
+                <td>IC 103</td>
+              </tr>
+              <tr>
+                <td>Hacking Starts</td>
+                <td>11:00 AM</td>
+                <td>IC 205, 209, 211, 215</td>
+              </tr>
+              <tr>
+                <td>Lunch</td>
+                <td>12:30 PM - 1:15 PM</td>
+                <td>IC 105</td>
+              </tr>
+              <tr>
+                <td>Hive Makerspace</td>
+                <td>11:00 AM - 4:00 PM</td>
+                <td>The Hive (Van Leer)</td>
+              </tr>
+              <tr>
+                <td>Mill Makerspace</td>
+                <td>4:00 PM - 9:00 PM</td>
+                <td>The Mill (J. Erskine Love Jr. Manufacturing Building)</td>
+              </tr>
+
+              <tr>
+                <td>Startup Exchange Workshop</td>
+                <td>6:00 PM - 7:00 PM</td>
+                <td>IC 115</td>
+              </tr>
+
+              <tr>
+                <td>Figma Workshop</td>
+                <td>2:00 PM - 3:00 PM</td>
+                <td>IC 115</td>
+              </tr>
+              <tr>
+                <td>GT Gourd Workshop</td>
+                <td>3:00 PM - 4:00 PM</td>
+                <td>IC 111</td>
+              </tr>
+              <tr>
+                <td>Tote Bag Painting Mini Event</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>IC 115</td>
+              </tr>
+              <tr>
+                <td>Origami Mini Event</td>
+                <td>5:00 PM - 6:00 PM</td>
+                <td>IC 111</td>
+              </tr>
+              <tr>
+                <td>Karaoke Mini Event</td>
+                <td>7:00 PM - 8:00 PM</td>
+                <td>IC 111</td>
+              </tr>
+              <tr>
+                <td>Dinner</td>
+                <td>6:00 PM - 6:45 PM</td>
+                <td>IC 105</td>
+              </tr>
+              <tr>
+                <td>Swag Distribution</td>
+                <td>7:00 PM - 7:45 PM</td>
+                <td>IC Lobby</td>
+              </tr>
+              <tr>
+                <td>Midnight Snacks</td>
+                <td>11:30 PM - 12:15 AM</td>
+                <td>IC 105</td>
+              </tr>
+
+              <tr className={schedule['schedule-day-header']}>
+                <td colSpan="3">Sunday Schedule</td>
+              </tr>
+              <tr>
+                <td>Brunch</td>
+                <td>11:00 PM - 11:30 PM</td>
+                <td>IC 105</td>
+              </tr>
+              <tr>
+                <td>Expo/Judging</td>
+                <td>11:30 PM - 12:30 PM</td>
+                <td>IC 111 & 115</td>
+              </tr>
+              <tr>
+                <td>Closing Ceremony</td>
+                <td>1:00 PM - 1:30 PM</td>
+                <td>IC 103</td>
+              </tr>
+              <tr>
+                <td>Prize Distribution</td>
+                <td>1:00 PM - 3:00 PM</td>
+                <td>Help Desk</td>
+              </tr>
+
+            </tbody>
+          </table>
         </div>
       </section>
 
