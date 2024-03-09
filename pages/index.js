@@ -6,12 +6,12 @@ function MainPage() {
     <body>
       <section id="section-hero">
         <div className="hero-container">
-          <img src="/img/pixel_2024_crescent.png" className="hero-image"/>
+          <img src="/img/pixel_2024_crescent.png" className="hero-img"/>
           <h1 className="hero-title">HORIZONS</h1>
           <div className="hero-subtitle">
             <strong>
             <h3>Georgia Tech</h3>
-            <h3>Instructional Center Room XXX</h3>
+            <h3>Instructional Center</h3>
             <h3>March 9th-10th</h3>
             </strong>
            
@@ -24,7 +24,7 @@ function MainPage() {
 
       <section id="section-about">
         <div className="about-container">
-          <h2 className ="about-title"><img src="/img/pixel_about_stars.png" /></h2>
+          <h2 className ="about-title"><img className="img-title" src="/img/pixel_about_stars.png" /></h2>
           <p>
           HexLabs is excited to welcome you back to 🌠 Horizons: the 24-hour design + tech make-a-thon!  On March 9 and 10th, all designers, coders, entrepreneurs, artists, and innovators of any major are invited to light up the Instructional Center with their brilliant ideas for a two-day, celestial-themed event! 🌌🌃
 
@@ -40,7 +40,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       <section id="section-registration">
         <div className="registration-flex">
           <div className="registration-container">
-            <h2><img src="/img/pixel_track_stars.png" /></h2>
+            <h2><img className="img-title" src="/img/pixel_track_stars.png" /></h2>
             <div className="star-group">
               <img src="/img/pixel_track_star_group.png" height="50px"/>
               <h3>PHYSICAL</h3>
@@ -96,7 +96,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
         </div>
         <div className ="registration-container2">
           <p>
-            Registration is FREE and open on Friday, February 16th at horizons.hexlabs.org and closes on Friday, March 1st
+            Registration is FREE and opens on Friday, February 16th at horizons.hexlabs.org and closes on Friday, March 1st
           </p>
           <a href="https://registration.hexlabs.org/">Register Here</a>
         </div>
@@ -104,7 +104,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
 
       <section id="section-schedule">
         <div className= {schedule['schedule-container']}>
-          <h3 className={schedule['schedule-title']}><img src="/img/pixel_schedule_stars.png" alt="Schedule Stars"/></h3>
+          <h3 className={schedule['schedule-title']}><img className="img-title" src="/img/pixel_schedule_stars.png" alt="Schedule Stars"/></h3>
           <table className={schedule['schedule-table']}>
             <thead>
               <tr>
@@ -149,20 +149,14 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               </tr>
 
               <tr>
-                <td>Startup Exchange Workshop</td>
-                <td>6:00 PM - 7:00 PM</td>
-                <td>IC 115</td>
+                <td>GT Gourd Workshop</td>
+                <td>2:00 PM - 3:00 PM</td>
+                <td>IC 111</td>
               </tr>
-
               <tr>
                 <td>Figma Workshop</td>
-                <td>2:00 PM - 3:00 PM</td>
-                <td>IC 115</td>
-              </tr>
-              <tr>
-                <td>GT Gourd Workshop</td>
                 <td>3:00 PM - 4:00 PM</td>
-                <td>IC 111</td>
+                <td>IC 115</td>
               </tr>
               <tr>
                 <td>Tote Bag Painting Mini Event</td>
@@ -173,6 +167,11 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
                 <td>Origami Mini Event</td>
                 <td>5:00 PM - 6:00 PM</td>
                 <td>IC 111</td>
+              </tr>
+              <tr>
+                <td>Startup Exchange Workshop</td>
+                <td>6:00 PM - 7:00 PM</td>
+                <td>IC 115</td>
               </tr>
               <tr>
                 <td>Karaoke Mini Event</td>
@@ -225,7 +224,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
       </section>
 
         <section id="section-faq">
-          <h2 className ="faq-title"><img src="/img/pixel_faq_stars.png" /></h2>
+          <h2 className ="faq-title"><img className="img-title" src="/img/pixel_faq_stars.png" /></h2>
 
           <p>
             <strong>
@@ -276,8 +275,9 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
           </p>
           <p>
             We'll be waiting for you at the Instructional Center, aka,
-            <a href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">Link</a>
+            <a href="https://www.google.com/maps/place/Instructional+Center/@33.7754478,-84.4012498,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5048ea3eb8fa1:0x3e4111b0dbacc6a6!8m2!3d33.7754478!4d-84.4012498!16s%2Fg%2F11c1n7f4t3?entry=ttu">
               759 Ferst Dr. NW, Atlanta, GA 30318
+            </a>
           </p>
 
           <p>
@@ -321,6 +321,17 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
           <p>
             We will have a mixer at the start of the event to help you find a
             team, but if you prefer going solo, we’re here by your side too!
+          </p>
+
+          <p>
+            <strong>Do you accept walk-ins?</strong>
+          </p>
+          <p>
+          We're accepting a certain number of walk-in participants. 
+          Just make sure to show up early to register at the door as spots will fill up quickly! 
+          Walk-ins won't be eligible for the giveaway, but there's plenty of other opportunities 
+          to win cool prizes and merch! Additionally, depending on numbers, food and swag may not 
+          be guarenteed.
           </p>
 
         <p>

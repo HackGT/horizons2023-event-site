@@ -50,7 +50,7 @@
     transform: scale(1.1);
   }
 
-  .hero-image {
+  .hero-img {
     position: absolute;
     right: 125px;
   }
@@ -162,6 +162,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 0px;
+    margin-left: -5vw;
   }
 
   .star-group img {
@@ -461,8 +462,7 @@
     }
 
     .hero-img {
-      margin-top: $m16Mobile;
-      width: $w3Mobile;
+      width: 0;
     }
 
     .hero-title {
@@ -561,6 +561,17 @@
 
     .descrip {
       margin-top: $m12Mobile;
+    }
+
+    .star-group img {
+      margin: 0;
+      height: 30px;
+      margin-left: -30px;
+    }
+  
+    .star-group h3 {
+      margin: 0;
+      width: fit-content;
     }
   }
 
