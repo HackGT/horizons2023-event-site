@@ -69,23 +69,28 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               <img src="/img/pixel_track_star_group.png" height="50px"/>
               <h3>EDUCATION</h3>
           </div>
-          <p className="descrip">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+          <p className="descrip">Revolutionize learning with creative solutions that make education 
+          more diverse and accessible. Use art, code, or other technologies to build inclusive learning
+          environments tailored for diverse learners and communities.</p>
 
           <div className="star-group">
               <img src="/img/pixel_track_star_group.png" height="50px"/>
               <h3>MUSIC TECH</h3>
           </div>
-          <p className="descrip">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          <p className="descrip">Develop a music technology project that fosters collaboration,
+          utilizing immersive experiences, leveraging data-driven insights, personalizing user experiences,
+          and engaging audiences in entirely new ways.
+          </p>
 
           <div className="star-group">
               <img src="/img/pixel_track_star_group.png" height="50px"/>
-              <h3>SUSTAINABILITY</h3>
+              <h3>MIXED REALITY</h3>
           </div>
-          <p className="descrip">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          <p className="descrip">Harness the power of mixed reality technologies to redefine how 
+          we interact with the world around us. Blend the digital with the physical to create 
+          rich experiences that not only entertain but also educate, empower, and enrich lives.
+          This challenge beckons innovators to craft immersive environments, interactive narratives, 
+          and transformative applications that captivate and inpsire.</p>
           </div>
 
         </div>
