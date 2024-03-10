@@ -225,7 +225,7 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
               </tr>
               <tr>
                 <td>Prize Distribution</td>
-                <td>1:00 PM - 3:00 PM</td>
+                <td>1:00 PM - 2:00 PM</td>
                 <td>Help Desk</td>
               </tr>
 
@@ -247,22 +247,23 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
           Sunday, <strong>March 10th @ 11:00 AM</strong>.<br/>
           Judging will take place from 11:30 AM - 12:30 PM on Sunday.
         </p>
+
         <h4>SUBMISSION PROCESS</h4>
         <p>
         Please follow these steps to submit your project:
           <ol>
-            <li className="ordered">Post your project on <strong>Devpost</strong>, make sure to include the following in your submission:</li>
+            <li>Post your project on <a href="https://horizons-2024.devpost.com/">Devpost</a>, make sure to include the following in your submission:</li>
           </ol>
             <ul>
-              <li className="unordered">
+              <li>
                 A video demoing your project (no more than 2 minutes in length).
                 Treat it like a demo you would give to a judge if it were in person
               </li>
-              <li className="unordered">A brief description of your project</li>
-              <li className="unordered">Links to your Github repository or other documentation</li>
+              <li>A brief description of your project</li>
+              <li>Links to your Github repository or other documentation</li>
             </ul>
           <ol start={2}>
-            <li className="ordered">
+            <li>
               Next, submit your project and Devpost link to <a href="https://expo.hexlabs.org/">Expo</a>.
             </li>
           </ol>
