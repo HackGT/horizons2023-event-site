@@ -234,6 +234,47 @@ Prepare for a celestial odyssey of creativity and discovery. Let's reach for the
         </div>
       </section>
 
+      <section id="section-judging">
+        <div class="judging-star-group">
+          <img src="/img/pixel_track_star_group.png" height="60px" border="solid black"/>
+          <h2 className="judging-title" border="solid black">JUDGING & EXPO</h2>
+          <img src="/img/pixel_track_star_group.png" height="60px" border="solid black"/>
+        </div>
+
+        <h4>SCHEDULE</h4>
+        <p>
+          Submissions will be open from Saturday, <strong>March 9th @ 11:00 PM</strong> and will close on 
+          Sunday, <strong>March 10th @ 11:00 AM</strong>.<br/>
+          Judging will take place from 11:30 AM - 12:30 PM on Sunday.
+        </p>
+        <h4>SUBMISSION PROCESS</h4>
+        <p>
+        Please follow these steps to submit your project:
+          <ol>
+            <li className="ordered">Post your project on <strong>Devpost</strong>, make sure to include the following in your submission:</li>
+          </ol>
+            <ul>
+              <li className="unordered">
+                A video demoing your project (no more than 2 minutes in length).
+                Treat it like a demo you would give to a judge if it were in person
+              </li>
+              <li className="unordered">A brief description of your project</li>
+              <li className="unordered">Links to your Github repository or other documentation</li>
+            </ul>
+          <ol start={2}>
+            <li className="ordered">
+              Next, submit your project and Devpost link to <a href="https://expo.hexlabs.org/">Expo</a>.
+            </li>
+          </ol>
+        </p>
+        
+        <h4>QUESTIONS ??</h4>
+        <p>
+          For any problems with submissions, please visit help desk <strong>BEFORE</strong> the submission deadline 
+          and our team will help you out!!
+        </p>
+      </section>
+
         <section id="section-faq">
           <h2 className ="faq-title"><img className="img-title" src="/img/pixel_faq_stars.png" /></h2>
 

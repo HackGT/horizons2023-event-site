@@ -209,10 +209,7 @@
 }
 
 #section-schedule {
-  // background-image: url("../public/img/bg/schedBG.png");
-  // background-size: cover;
-  // background-color: #281d36;
-  background-image: linear-gradient(#30274d, #281D36);
+  background-image: linear-gradient(#30274d, #2c2242);
   color: white;
   padding: $m192 $m128;
   display: flex;
@@ -291,16 +288,76 @@
     color: #5b5ca6;
     transform: scale(1.1);
   }
-  // ??? remove both below
-  // .schedule-container {
-  //   position: relative;
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: center;
-  //   width: $w7;
-  //   text-align: center;
-  // }
+}
+
+#section-judging {
+  background-image: linear-gradient(#2c2242, #281D36);
+  color: white;
+  padding: $m192 $m128;
+  align-items: flex-start;
+
+  .judging-title {
+    font-family: "celestialFree";
+    font-weight: 400;
+    font-size: $h2;
+    letter-spacing: 0.1rem;
+    margin-top: 0%;
+    margin-bottom: calc($m16 / 2);
+    width: $w12;
+  }
+
+  .judging-star-group {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    gap: 1vw;
+  }
+
+  .judging-title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: fit-content;
+  }
+
+  img {
+    width: fit-content;
+    margin: 0;
+  }
+
+  h3 {
+    font-family: "celestialFree";
+  }
+
+  h4 {
+    font-family: "celestialFree";
+    letter-spacing: 0.1rem;
+  }
+
+  a {
+    display: inline;
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
+  }
+
+  ul {
+    display: list-item;
+    li {
+      list-style-type: disc;
+    }
+    margin-left: 3rem;
+    line-height: 1.5;
+  }
+
+  ol {
+    // display: list-item;
+    margin-left: 2rem;
+    li {
+      list-style-type: decimal;
+      margin-left: -1.5rem;
+    }
+  }
 }
 
 #section-faq {
@@ -608,6 +665,14 @@
 
     .schedule-img-background {
       display: none;
+    }
+  }
+
+  #section-judging {
+    .judging-star-group {
+      h2 {
+        font-size: $h2Mobile;
+      }
     }
   }
 
